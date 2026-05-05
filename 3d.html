@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+<meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+<title>forge / 3d</title>
+<style>
+  body { margin: 0; overflow: hidden; background: #050409; color: #b8e8d1; font-family: ui-monospace, "SF Mono", "Menlo", monospace; }
+  #header { position: absolute; top: 14px; left: 18px; z-index: 10; pointer-events: none; }
+  #header h1 { margin: 0; font-size: 14px; font-weight: 500; letter-spacing: 0.1em; color: #5be391; text-shadow: 0 0 12px rgba(91, 227, 145, 0.6); }
+  #header .sub { margin-top: 3px; color: #4a9d7a; font-size: 10px; letter-spacing: 0.04em; }
+  #legend { position: absolute; top: 14px; right: 18px; padding: 8px 12px; border: 1px solid rgba(91, 227, 145, 0.3); border-radius: 4px; font-size: 10px; line-height: 1.6; color: #4a9d7a; background: rgba(5, 4, 9, 0.6); backdrop-filter: blur(4px); z-index: 10; max-width: 220px; }
+  #legend .key { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; box-shadow: 0 0 6px currentColor; }
+  #legend .row { color: #b0adaa; }
+  #footer { position: absolute; bottom: 12px; left: 18px; font-size: 9px; color: #2d6049; z-index: 10; letter-spacing: 0.06em; }
+  #footer a { color: #4a9d7a; text-decoration: none; border-bottom: 1px dotted #4a9d7a; }
+  #footer a:hover { color: #5be391; border-bottom-color: #5be391; }
+  #status { position: absolute; bottom: 14px; right: 18px; font-size: 10px; color: #4a9d7a; z-index: 10; padding: 6px 10px; border: 1px solid rgba(91, 227, 145, 0.3); border-radius: 4px; background: rgba(5, 4, 9, 0.6); }
+  #status .lit { color: #5be391; }
+  #tooltip { position: absolute; padding: 10px 14px; background: rgba(5, 4, 9, 0.92); border: 1px solid rgba(91, 227, 145, 0.5); border-radius: 4px; font-size: 11px; color: #b8e8d1; line-height: 1.5; pointer-events: none; display: none; z-index: 20; max-width: 280px; backdrop-filter: blur(6px); box-shadow: 0 0 24px rgba(91, 227, 145, 0.15); }
+  #tooltip .name { color: #5be391; font-weight: 500; margin-bottom: 4px; font-size: 12px; }
+  #scanline { position: fixed; top: 0; left: 0; right: 0; height: 100%; pointer-events: none; background: linear-gradient(to bottom, transparent 0%, transparent 49.5%, rgba(91, 227, 145, 0.025) 50%, transparent 50.5%); background-size: 100% 4px; animation: scan 8s linear infinite; z-index: 100; }
+  @keyframes scan { 0% { transform: translateY(0); } 100% { transform: translateY(4px); } }
+  #grid-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; pointer-events: none; background-image: linear-gradient(rgba(91, 227, 145, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(91, 227, 145, 0.03) 1px, transparent 1px); background-size: 40px 40px; z-index: 99; }
+
+  /* Gate */
+  #gate { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #050409; display: flex; align-items: center; justify-content: center; z-index: 1000; }
+  #gate-inner { max-width: 360px; width: 90%; padding: 30px; border: 1px solid rgba(91, 227, 145, 0.3); border-radius: 4px; background: rgba(20, 30, 22, 0.4); backdrop-filter: blur(12px); }
+  #gate-inner h1 { margin: 0 0 16px 0; font-size: 14px; color: #5be391; letter-spacing: 0.1em; text-shadow: 0 0 12px rgba(91, 227, 145, 0.4); text-align: center; }
+  #gate-inner .desc { color: #4a9d7a; font-size: 11px; margin-bottom: 20px; text-align: center; line-height: 1.6; }
+  #gate-inner input { width: 100%; padding: 12px 14px; background: rgba(91, 227, 145, 0.05); border: 1px solid rgba(91, 227, 145, 0.4); border-radius: 2px; color: #b8e8d1; font-family: inherit; font-size: 13px; box-sizing: border-box; outline: none; letter-spacing: 0.04em; }
+  #gate-inner input:focus { border-color: #5be391; box-shadow: 0 0 8px rgba(91, 227, 145, 0.3); }
+  #gate-inner button { width: 100%; margin-top: 12px; padding: 12px; background: rgba(91, 227, 145, 0.15); border: 1px solid #5be391; color: #5be391; font-family: inherit; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; border-radius: 2px; }
+  #gate-inner button:hover { background: rgba(91, 227, 145, 0.25); }
+  #gate-error { margin-top: 12px; color: #c96442; font-size: 11px; text-align: center; min-height: 14px; }
+</style>
+</head>
+<body>
+
+<div id="gate">
+  <div id="gate-inner">
+    <h1>FORGE / 3D</h1>
+    <div class="desc">Restricted view. Same passphrase as the main dashboard.</div>
+    <input type="password" id="pw" placeholder="passphrase" autocomplete="off" autofocus>
+    <button onclick="checkPassword()">unlock</button>
+    <div id="gate-error"></div>
+  </div>
+</div>
+
+<div id="grid-overlay"></div>
+<div id="scanline"></div>
+
+<div id="header">
+  <h1>FORGE / 3D / NETWORK</h1>
+  <div class="sub">drag to rotate · scroll to zoom · auto-rotates when idle</div>
+</div>
+
+<div id="legend">
+  <div class="row"><span class="key" style="background:#ffae6c;color:#ffae6c;"></span> self (center)</div>
+  <div class="row"><span class="key" style="background:#5be391;color:#5be391;"></span> domain</div>
+  <div class="row"><span class="key" style="background:#6bcfff;color:#6bcfff;"></span> cluster</div>
+  <div class="row" style="margin-top:6px;color:#2d6049;font-size:9px;">labels generalized for public view</div>
+</div>
+
+<div id="status">connection: <span class="lit">live</span> · nodes: <span class="lit" id="node-count">0</span></div>
+<div id="footer">v0.2 · 2026-05-04 · <a href="./">back to dashboard</a></div>
+<div id="tooltip"></div>
+
+<canvas id="c"></canvas>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+const expectedHash = "d283db68881640773506967817069b0ca90a287476d39f51c25bbbde7505d229";
+
+async function sha256(text) {
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
+}
+
+async function checkPassword() {
+  const pw = document.getElementById("pw").value;
+  const hash = await sha256(pw);
+  if (hash === expectedHash) {
+    sessionStorage.setItem("forge-unlocked", "1");
+    document.getElementById("gate").style.display = "none";
+    initScene();
+  } else {
+    document.getElementById("gate-error").textContent = "incorrect";
+    document.getElementById("pw").value = "";
+  }
+}
+
+document.getElementById("pw").addEventListener("keypress", function(e) {
+  if (e.key === "Enter") checkPassword();
+});
+
+if (sessionStorage.getItem("forge-unlocked") === "1") {
+  document.getElementById("gate").style.display = "none";
+  setTimeout(initScene, 100);
+}
+
+let started = false;
+
+function initScene() {
+  if (started) return;
+  started = true;
+
+  const DOMAINS = [{"name": "identity", "size": 4, "color": 6022033}, {"name": "work", "size": 11, "color": 16756332}, {"name": "relationships", "size": 4, "color": 16739534}, {"name": "preferences", "size": 3, "color": 13214029}, {"name": "focus", "size": 3, "color": 7065599}, {"name": "raw-sources", "size": 7, "color": 10185983}, {"name": "proposals", "size": 3, "color": 7143374}, {"name": "scripts", "size": 3, "color": 16739436}];
+  const TOPICS = [{"label": "Cluster 01", "count": 44}, {"label": "Cluster 02", "count": 32}, {"label": "Cluster 03", "count": 18}, {"label": "Cluster 04", "count": 17}, {"label": "Cluster 05", "count": 11}, {"label": "Cluster 06", "count": 9}, {"label": "Cluster 07", "count": 8}, {"label": "Cluster 08", "count": 8}, {"label": "Cluster 09", "count": 7}, {"label": "Cluster 10", "count": 6}, {"label": "Cluster 11", "count": 5}, {"label": "Cluster 12", "count": 4}, {"label": "Cluster 13", "count": 4}, {"label": "Cluster 14", "count": 3}, {"label": "Cluster 15", "count": 3}, {"label": "Cluster 16", "count": 2}, {"label": "Cluster 17", "count": 1}];
+
+  const scene = new THREE.Scene();
+  scene.fog = new THREE.FogExp2(0x050409, 0.0028);
+
+  const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 4000);
+  camera.position.set(0, 80, 320);
+
+  const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById("c"), antialias: true, alpha: true });
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.setPixelRatio(window.devicePixelRatio);
+
+  const nodes = [];
+  const linkLines = [];
+
+  function makeNode(name, type, position, color, radius, tooltip) {
+    const mat = new THREE.MeshBasicMaterial({ color: color, transparent: true, opacity: 0.92 });
+    const geo = new THREE.SphereGeometry(radius, 24, 24);
+    const mesh = new THREE.Mesh(geo, mat);
+    mesh.position.copy(position);
+    mesh.userData = { name, type, tooltip, baseRadius: radius, color };
+
+    // Inner glow
+    const haloMat = new THREE.MeshBasicMaterial({ color, transparent: true, opacity: 0.22, side: THREE.BackSide });
+    const haloGeo = new THREE.SphereGeometry(radius * 1.8, 16, 16);
+    const halo = new THREE.Mesh(haloGeo, haloMat);
+    mesh.add(halo);
+
+    // Outer corona
+    const coronaMat = new THREE.MeshBasicMaterial({ color, transparent: true, opacity: 0.08, side: THREE.BackSide });
+    const coronaGeo = new THREE.SphereGeometry(radius * 3.2, 16, 16);
+    const corona = new THREE.Mesh(coronaGeo, coronaMat);
+    mesh.add(corona);
+
+    scene.add(mesh);
+    nodes.push(mesh);
+    return mesh;
+  }
+
+  function makeLine(from, to, color, opacity) {
+    const mat = new THREE.LineBasicMaterial({ color, transparent: true, opacity: opacity || 0.2 });
+    const geo = new THREE.BufferGeometry().setFromPoints([from.position.clone(), to.position.clone()]);
+    const line = new THREE.Line(geo, mat);
+    scene.add(line);
+    linkLines.push({ line, from, to });
+    return line;
+  }
+
+  // Center: self
+  const center = makeNode("self", "self", new THREE.Vector3(0, 0, 0), 0xffae6c, 9, "the source of truth");
+
+  // First ring: domains
+  const domainNodes = [];
+  DOMAINS.forEach((d, i) => {
+    const angle = (i / DOMAINS.length) * Math.PI * 2;
+    const phi = Math.PI / 3 + (i % 2) * (Math.PI / 6);
+    const r = 90;
+    const x = r * Math.sin(phi) * Math.cos(angle);
+    const y = r * Math.cos(phi) - 25;
+    const z = r * Math.sin(phi) * Math.sin(angle);
+    const node = makeNode(d.name, "domain", new THREE.Vector3(x, y, z), d.color, 4 + Math.sqrt(d.size) * 0.6, d.name + " · " + d.size + " files");
+    domainNodes.push(node);
+    makeLine(center, node, d.color, 0.4);
+  });
+
+  // Second ring: clusters (orbiting outside domains)
+  TOPICS.forEach((t, i) => {
+    const angle = (i / TOPICS.length) * Math.PI * 2 + 0.3;
+    const phi = Math.PI / 2 + Math.sin(i * 0.7) * 0.7;
+    const r = 175 + (i % 3) * 14;
+    const x = r * Math.sin(phi) * Math.cos(angle);
+    const y = r * Math.cos(phi) + Math.sin(i * 1.7) * 35;
+    const z = r * Math.sin(phi) * Math.sin(angle);
+    const node = makeNode(t.label, "cluster", new THREE.Vector3(x, y, z), 0x6bcfff, 2.5 + Math.sqrt(t.count) * 1.4, t.label + " · " + t.count + " memories");
+    // Connect to a randomly-chosen domain (visual richness, not real semantics)
+    const parent = domainNodes[i % domainNodes.length];
+    makeLine(parent, node, 0x6bcfff, 0.18);
+  });
+
+  // Particle field background
+  const particleCount = 1500;
+  const particleGeo = new THREE.BufferGeometry();
+  const positions = new Float32Array(particleCount * 3);
+  const colorsArr = new Float32Array(particleCount * 3);
+  for (let i = 0; i < particleCount; i++) {
+    positions[i*3]   = (Math.random() - 0.5) * 1400;
+    positions[i*3+1] = (Math.random() - 0.5) * 700;
+    positions[i*3+2] = (Math.random() - 0.5) * 1400;
+    const tint = Math.random();
+    colorsArr[i*3]   = tint * 0.4;
+    colorsArr[i*3+1] = 0.8 + tint * 0.2;
+    colorsArr[i*3+2] = 0.4 + tint * 0.4;
+  }
+  particleGeo.setAttribute("position", new THREE.BufferAttribute(positions, 3));
+  particleGeo.setAttribute("color", new THREE.BufferAttribute(colorsArr, 3));
+  const particleMat = new THREE.PointsMaterial({ size: 0.6, transparent: true, opacity: 0.5, vertexColors: true });
+  const particles = new THREE.Points(particleGeo, particleMat);
+  scene.add(particles);
+
+  document.getElementById("node-count").textContent = nodes.length;
+
+  // Controls
+  let isDragging = false;
+  let lastMouse = { x: 0, y: 0 };
+  let cameraAngle = { theta: 0, phi: Math.PI / 4 };
+  let cameraDistance = 340;
+
+  const canvas = renderer.domElement;
+  canvas.style.cursor = "grab";
+
+  canvas.addEventListener("mousedown", e => { isDragging = true; lastMouse = { x: e.clientX, y: e.clientY }; canvas.style.cursor = "grabbing"; });
+  window.addEventListener("mouseup", () => { isDragging = false; canvas.style.cursor = "grab"; });
+  window.addEventListener("mousemove", e => {
+    if (isDragging) {
+      const dx = e.clientX - lastMouse.x;
+      const dy = e.clientY - lastMouse.y;
+      cameraAngle.theta -= dx * 0.005;
+      cameraAngle.phi = Math.max(0.05, Math.min(Math.PI - 0.05, cameraAngle.phi - dy * 0.005));
+      lastMouse = { x: e.clientX, y: e.clientY };
+    }
+    updateTooltip(e);
+  });
+  canvas.addEventListener("wheel", e => {
+    e.preventDefault();
+    cameraDistance *= e.deltaY > 0 ? 1.1 : 0.9;
+    cameraDistance = Math.max(60, Math.min(900, cameraDistance));
+  });
+  canvas.addEventListener("touchstart", e => { if (e.touches.length === 1) { isDragging = true; lastMouse = { x: e.touches[0].clientX, y: e.touches[0].clientY }; } });
+  canvas.addEventListener("touchend", () => { isDragging = false; });
+  canvas.addEventListener("touchmove", e => {
+    if (e.touches.length === 1 && isDragging) {
+      e.preventDefault();
+      const t = e.touches[0];
+      const dx = t.clientX - lastMouse.x;
+      const dy = t.clientY - lastMouse.y;
+      cameraAngle.theta -= dx * 0.005;
+      cameraAngle.phi = Math.max(0.05, Math.min(Math.PI - 0.05, cameraAngle.phi - dy * 0.005));
+      lastMouse = { x: t.clientX, y: t.clientY };
+    }
+  }, { passive: false });
+
+  const raycaster = new THREE.Raycaster();
+  const mouseVec = new THREE.Vector2();
+  let hovered = null;
+
+  function updateTooltip(e) {
+    mouseVec.x = (e.clientX / window.innerWidth) * 2 - 1;
+    mouseVec.y = -(e.clientY / window.innerHeight) * 2 + 1;
+    raycaster.setFromCamera(mouseVec, camera);
+    const hits = raycaster.intersectObjects(nodes);
+    const tooltip = document.getElementById("tooltip");
+    if (hits.length > 0) {
+      const node = hits[0].object;
+      if (hovered !== node) {
+        if (hovered) hovered.scale.setScalar(1);
+        hovered = node;
+        hovered.scale.setScalar(1.5);
+      }
+      tooltip.style.display = "block";
+      tooltip.style.left = (e.clientX + 12) + "px";
+      tooltip.style.top = (e.clientY + 12) + "px";
+      tooltip.innerHTML = '<div class="name">' + node.userData.name + '</div><div>' + node.userData.tooltip + '</div>';
+    } else {
+      if (hovered) { hovered.scale.setScalar(1); hovered = null; }
+      tooltip.style.display = "none";
+    }
+  }
+
+  window.addEventListener("resize", () => {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+  });
+
+  // Pulsing edges
+  function animate() {
+    requestAnimationFrame(animate);
+    if (!isDragging) cameraAngle.theta += 0.0008;
+    camera.position.x = cameraDistance * Math.sin(cameraAngle.phi) * Math.cos(cameraAngle.theta);
+    camera.position.y = cameraDistance * Math.cos(cameraAngle.phi);
+    camera.position.z = cameraDistance * Math.sin(cameraAngle.phi) * Math.sin(cameraAngle.theta);
+    camera.lookAt(0, 0, 0);
+
+    // Pulse the center
+    const t = Date.now() / 800;
+    center.scale.setScalar(hovered === center ? 1.5 : 1 + 0.06 * Math.sin(t));
+
+    // Pulse domain nodes subtly
+    nodes.forEach((n, i) => {
+      if (n === center) return;
+      if (hovered === n) return;
+      const wave = Math.sin(t + i * 0.7);
+      n.scale.setScalar(1 + 0.04 * wave);
+    });
+
+    // Particle drift
+    particles.rotation.y += 0.0004;
+    particles.rotation.x += 0.00012;
+
+    // Edge opacity wave (trippy)
+    linkLines.forEach((l, i) => {
+      const baseOpacity = 0.18;
+      const wave = 0.12 * Math.sin(t * 1.3 + i * 0.4);
+      l.line.material.opacity = baseOpacity + wave;
+    });
+
+    renderer.render(scene, camera);
+  }
+  animate();
+}
+</script>
+
+</body>
+</html>
