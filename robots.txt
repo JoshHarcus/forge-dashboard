@@ -1,0 +1,7 @@
+# Block all crawlers
+User-agent: *
+Disallow: /
+
+# Discourage archiving
+User-agent: ia_archiver
+Disallow: /
