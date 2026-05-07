@@ -1,0 +1,120 @@
+/* Forge Cockpit · graph-specific styling */
+
+#stage {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  cursor: grab;
+}
+#stage:active { cursor: grabbing; }
+
+#graph {
+  width: 100%;
+  height: 100%;
+  display: block;
+  touch-action: none;
+}
+
+/* Background constellation */
+.bg-star {
+  fill: rgba(45, 94, 62, 0.18);
+}
+[data-mode="day"] .bg-star {
+  fill: rgba(45, 94, 62, 0.08);
+}
+
+/* Edges */
+.edge {
+  stroke: rgba(250, 248, 243, 0.15);
+  stroke-width: 1;
+  fill: none;
+  transition: stroke-opacity 0.3s, stroke-width 0.3s;
+}
+[data-mode="day"] .edge {
+  stroke: rgba(26, 31, 27, 0.18);
+}
+.edge.latent {
+  stroke-dasharray: 2 5;
+  stroke-opacity: 0.4;
+}
+.edge.dim { stroke-opacity: 0.05; }
+.edge.bright {
+  stroke: rgba(45, 94, 62, 0.55);
+  stroke-width: 1.5;
+}
+
+/* Nodes */
+.node {
+  cursor: pointer;
+  transition: opacity 0.4s ease;
+}
+
+.node-halo {
+  fill: none;
+  stroke-width: 1;
+}
+
+.node-circle {
+  transition: r 0.25s var(--easing), filter 0.25s ease;
+}
+
+.node-label {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  fill: var(--fg-night);
+  text-anchor: middle;
+  pointer-events: none;
+  opacity: 0.85;
+  transition: opacity 0.3s, font-size 0.25s;
+  paint-order: stroke;
+  stroke: rgba(10, 14, 12, 0.65);
+  stroke-width: 3;
+  stroke-linejoin: round;
+}
+[data-mode="day"] .node-label {
+  fill: var(--fg-day);
+  stroke: rgba(250, 248, 243, 0.65);
+}
+
+.node.dim { opacity: 0.18; }
+.node.dim .node-label { opacity: 0; }
+
+.node.focused .node-circle {
+  filter: drop-shadow(0 0 18px currentColor) drop-shadow(0 0 32px currentColor);
+}
+.node.focused .node-label {
+  opacity: 1;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.node.has-pending .node-halo {
+  stroke: currentColor;
+  stroke-opacity: 0.5;
+  animation: pulse-halo 2.4s ease-in-out infinite;
+}
+.node.overdue .node-halo {
+  stroke: #E55D5D;
+  stroke-opacity: 0.7;
+  animation: pulse-halo 1.6s ease-in-out infinite;
+}
+.node.won .node-halo {
+  stroke: #C9A34A;
+  stroke-opacity: 0.55;
+  animation: none;
+}
+.node.lost .node-halo {
+  stroke: rgba(122, 122, 122, 0.4);
+  stroke-opacity: 0.4;
+  stroke-width: 0.5;
+  animation: none;
+}
+
+@keyframes pulse-halo {
+  0%, 100% { stroke-width: 1; transform-origin: center; }
+  50% { stroke-width: 3; }
+}
+
+[data-mode="focus"] .node-label { opacity: 0; }
+[data-mode="focus"] .node.focused .node-label { opacity: 1; }

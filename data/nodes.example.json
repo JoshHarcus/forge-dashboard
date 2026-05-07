@@ -1,0 +1,14 @@
+[
+  {
+    "id": "example-node",
+    "name": "Example Node",
+    "type": "doc",
+    "department": "strategy",
+    "scope": "doc",
+    "priority": "medium",
+    "status": "active",
+    "last_activity": "2026-05-06",
+    "tags": ["example"],
+    "body": "<p>This is the fallback nodes file. If the build script fails to produce a real nodes.json, the cockpit can fall back to this.</p>"
+  }
+]

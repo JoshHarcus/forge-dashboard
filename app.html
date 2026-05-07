@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-mode="night">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#0A0E0C">
+<title>Forge</title>
+<link rel="stylesheet" href="styles/system.css">
+<link rel="stylesheet" href="styles/graph.css">
+</head>
+<body>
+
+<div id="stage">
+  <svg id="graph" xmlns="http://www.w3.org/2000/svg"></svg>
+</div>
+
+<!-- Top-right: mode toggle + corner floaters -->
+<div class="hud hud-top-right">
+  <button id="mode-toggle" class="hud-btn" title="Toggle day/night">
+    <span class="moon">&#9789;</span>
+    <span class="sun">&#9728;</span>
+  </button>
+  <button id="focus-toggle" class="hud-btn" title="Focus mode">F</button>
+</div>
+
+<!-- Top-left: identity glyph -->
+<div class="hud hud-top-left">
+  <div class="brand">
+    <div class="brand-glyph"></div>
+    <div class="brand-meta">
+      <div class="brand-name">Forge</div>
+      <div class="brand-sub" id="status-line">Loading the brain</div>
+    </div>
+  </div>
+</div>
+
+<!-- Bottom-right: action floaters -->
+<div class="hud hud-bottom-right">
+  <button id="open-roadmap" class="hud-btn floater" title="Roadmap (R)">
+    <span class="floater-label">Roadmap</span>
+  </button>
+  <button id="open-activity" class="hud-btn floater" title="Activity (A)">
+    <span class="floater-label">Recently</span>
+  </button>
+</div>
+
+<!-- Bottom: time slider -->
+<div class="time-strip">
+  <div class="time-strip-inner">
+    <div class="time-strip-label" id="time-label">Now</div>
+    <input type="range" id="time-slider" min="0" max="100" value="100">
+    <div class="time-strip-marks" id="time-marks"></div>
+  </div>
+</div>
+
+<!-- Hint -->
+<div class="hint" id="hint">Click a node. Drag to pan. Scroll or pinch to zoom.</div>
+
+<!-- Content drawer (bottom) -->
+<div class="drawer drawer-bottom" id="drawer-node" aria-hidden="true">
+  <div class="drawer-handle"></div>
+  <div class="drawer-head">
+    <div class="drawer-title" id="drawer-title">&nbsp;</div>
+    <div class="drawer-meta" id="drawer-meta"></div>
+    <button class="drawer-close" id="drawer-close">&times;</button>
+  </div>
+  <div class="drawer-body" id="drawer-body"></div>
+</div>
+
+<!-- Roadmap drawer (right) -->
+<div class="drawer drawer-right" id="drawer-roadmap" aria-hidden="true">
+  <div class="drawer-head">
+    <div class="drawer-title">What's shipping</div>
+    <button class="drawer-close" data-close="drawer-roadmap">&times;</button>
+  </div>
+  <div class="drawer-body" id="roadmap-body"></div>
+</div>
+
+<!-- Activity drawer (right) -->
+<div class="drawer drawer-right" id="drawer-activity" aria-hidden="true">
+  <div class="drawer-head">
+    <div class="drawer-title">Recently</div>
+    <button class="drawer-close" data-close="drawer-activity">&times;</button>
+  </div>
+  <div class="drawer-body" id="activity-body"></div>
+</div>
+
+<!-- Auth check -->
+<script>
+  if (localStorage.getItem("forge-unlocked") !== "1") {
+    location.replace("index.html");
+  }
+</script>
+
+<!-- CDN libs -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+<!-- App scripts -->
+<script src="scripts/router.js"></script>
+<script src="scripts/drawer.js"></script>
+<script src="scripts/modes.js"></script>
+<script src="scripts/time.js"></script>
+<script src="scripts/gestures.js"></script>
+<script src="scripts/graph.js"></script>
+
+</body>
+</html>

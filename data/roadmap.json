@@ -1,0 +1,136 @@
+[
+  {
+    "id": "cockpit-mvp",
+    "name": "Cockpit MVP live",
+    "status": "done",
+    "phase": "1",
+    "completed": "2026-05-06"
+  },
+  {
+    "id": "password-gate",
+    "name": "Password gate (SHA256 client-side)",
+    "status": "done",
+    "phase": "1",
+    "completed": "2026-05-06"
+  },
+  {
+    "id": "graph-home",
+    "name": "Graph-as-home navigation",
+    "status": "done",
+    "phase": "1",
+    "completed": "2026-05-06"
+  },
+  {
+    "id": "drawer-content",
+    "name": "Click-to-drawer with rendered content",
+    "status": "done",
+    "phase": "1",
+    "completed": "2026-05-06"
+  },
+  {
+    "id": "time-slider",
+    "name": "Time slider with opacity recalculation",
+    "status": "done",
+    "phase": "1",
+    "completed": "2026-05-06"
+  },
+  {
+    "id": "day-night",
+    "name": "Day / night / focus modes",
+    "status": "done",
+    "phase": "1",
+    "completed": "2026-05-06"
+  },
+  {
+    "id": "mobile-gestures",
+    "name": "Mobile gestures (pinch, long-press, swipe)",
+    "status": "done",
+    "phase": "1",
+    "completed": "2026-05-06"
+  },
+  {
+    "id": "deep-links",
+    "name": "Hash-based deep links",
+    "status": "done",
+    "phase": "1",
+    "completed": "2026-05-06"
+  },
+  {
+    "id": "scheduled-rebuild",
+    "name": "Scheduled 3am rebuild from josh-identity",
+    "status": "in-progress",
+    "phase": "1"
+  },
+  {
+    "id": "frontmatter-rollout",
+    "name": "Add frontmatter contract to every brain file",
+    "status": "in-progress",
+    "phase": "1"
+  },
+  {
+    "id": "three-d-depth",
+    "name": "Three.js depth (departments at Z layers)",
+    "status": "planned",
+    "phase": "2"
+  },
+  {
+    "id": "wormhole-transitions",
+    "name": "Wormhole transitions on node click",
+    "status": "planned",
+    "phase": "2"
+  },
+  {
+    "id": "magnetic-physics",
+    "name": "Tuned magnetic physics (real attraction forces)",
+    "status": "planned",
+    "phase": "2"
+  },
+  {
+    "id": "voice-nav",
+    "name": "Voice navigation (show me Carpenter)",
+    "status": "planned",
+    "phase": "2"
+  },
+  {
+    "id": "ai-latent-edges",
+    "name": "AI-suggested latent connections",
+    "status": "planned",
+    "phase": "2"
+  },
+  {
+    "id": "pwa-install",
+    "name": "PWA install (home screen, full-screen mobile)",
+    "status": "planned",
+    "phase": "3"
+  },
+  {
+    "id": "auto-pull",
+    "name": "Auto-pull from josh-identity (no rebuild step)",
+    "status": "planned",
+    "phase": "3"
+  },
+  {
+    "id": "live-activity",
+    "name": "Real-time activity stream (commit push)",
+    "status": "planned",
+    "phase": "3"
+  },
+  {
+    "id": "two-repo-federation",
+    "name": "Two-repo federation (huify-identity)",
+    "status": "planned",
+    "phase": "3"
+  },
+  {
+    "id": "particle-trails",
+    "name": "Particle trails for new commits",
+    "status": "planned",
+    "phase": "3"
+  },
+  {
+    "id": "agent-summit-deck",
+    "name": "Agent Summit deck refresh",
+    "status": "parked",
+    "phase": "later"
+  }
+]

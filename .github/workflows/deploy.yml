@@ -1,0 +1,65 @@
+name: Rebuild brain data
+
+on:
+  schedule:
+    # 3am Pacific. PDT = UTC-7 (10:00 UTC), PST = UTC-8 (11:00 UTC).
+    # We run at both times so it's always 3am local regardless of DST.
+    - cron: '0 10 * * *'
+    - cron: '0 11 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout cockpit repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Checkout josh-identity (brain source)
+        uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          repository: JoshHarcus/josh-identity
+          path: brain
+          token: ${{ secrets.BRAIN_PAT || github.token }}
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Rebuild nodes.json + edges.json
+        run: |
+          if [ -d "brain" ] && [ "$(ls -A brain 2>/dev/null)" ]; then
+            node scripts/build-graph-data.js brain data
+          else
+            echo "brain repo not available, skipping rebuild (cockpit will use existing data)"
+          fi
+
+      - name: Append activity log entry
+        run: |
+          DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          node -e "
+          const fs=require('fs');
+          const path='data/activity.json';
+          const items = JSON.parse(fs.readFileSync(path,'utf8'));
+          items.unshift({ ts: '$DATE', text: 'Scheduled rebuild ran.', node: 'brain-sync-skill' });
+          fs.writeFileSync(path, JSON.stringify(items.slice(0,40), null, 2));
+          "
+
+      - name: Commit and push
+        run: |
+          git config user.name "forge-bot"
+          git config user.email "forge-bot@users.noreply.github.com"
+          git add data/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: scheduled brain rebuild"
+            git push origin main
+          else
+            echo "no changes"
+          fi
