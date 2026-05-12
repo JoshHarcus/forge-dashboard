@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>About · Forge HQ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead"></header>
+
+  <div class="lede-block">
+    <div class="kicker">SECTION 08 · META</div>
+    <h1 class="lede">About Forge.</h1>
+    <p class="deck">What it is, who has access, why it exists. A short page so visitors landing here can orient themselves without having to ask.</p>
+  </div>
+
+  <article class="prose dropcap">
+    <h2>What Forge is</h2>
+    <p>Forge is Hüify's operational brain. A single navigable surface that holds working memory across every system Hüify uses to run: HubSpot for deals and contacts, Drive for documents and contracts, Slack and Gmail for conversations, Gong for calls, Asana for delivery work, and a curated tree of decisions and notes that humans wrote intentionally.</p>
+    <p>Three thousand-odd nodes captured and indexed. A graph cockpit at <a href="../cockpit/">/cockpit</a> for spatial navigation. An editorial hub at the root for reading. Markdown lives in the brain tree; visualization lives in the cockpit; both render from the same nodes.</p>
+
+    <h2>Who has access</h2>
+    <p>The default audience is <em>internal Hüify</em>. The frontmatter on every doc carries a <code>visible_to</code> array. The hub's renderer checks that array against an allowlist before rendering. Anything outside the list (legal, family, health, financial) is excluded from the public render even though the markdown lives in the same tree.</p>
+    <p>The cockpit is gated separately by password (1835). Same node visibility logic eventually applies there too. For now the password is the rough mechanism.</p>
+
+    <h2>Why it exists</h2>
+    <p>Hüify runs as a small consultancy with a long memory and a small team. Context is the constraint. When a deal lands or a client asks for something, the right answer is usually distributed across six tools. Reconstructing it by hand each time burns hours that should go elsewhere.</p>
+    <p>Forge is the attempt to flatten that. Pull every relevant node into one tree, link the related ones, write down the decisions explicitly, and make the whole thing navigable from a single URL. The goal is that anyone (Josh, Erika, Sergio, Ben) can land here and find the current state without having to ping someone.</p>
+
+    <h2>The federated identity pattern</h2>
+    <p>Same content, different audiences, gated at render time. This page renders on the public hub. The decisions tree renders for internal-Hüify and broader. The work tree renders for internal-Hüify. Anything tagged <code>josh</code> only renders for Josh's own client (or never, on the public hub).</p>
+    <p>This is not real auth. It is a render-time filter on a static site. The threat model is "casual visitor finds the URL," not "motivated attacker." For higher-sensitivity content, the source repo itself is private and the public deploy renders only what passes the visibility check.</p>
+
+    <h2>What is in scope</h2>
+    <ul>
+      <li>HubSpot deals, contacts, companies, notes, calls, emails (extracted)</li>
+      <li>Drive folders and files relevant to active work (extracted)</li>
+      <li>Slack threads and Gmail messages tagged into the brain (extracted)</li>
+      <li>Gong call summaries and transcripts (extracted)</li>
+      <li>Asana tasks and projects (extracted)</li>
+      <li>Curated decisions, threads, people, projects, playbooks (handwritten)</li>
+    </ul>
+
+    <h2>What is not in scope</h2>
+    <ul>
+      <li>Real-time chat (use Slack)</li>
+      <li>Money movement (PayPal, invoicing). Anything financial stops at "surface for review."</li>
+      <li>Legal counsel. Forge can flag, draft, and reference but it does not give legal advice.</li>
+      <li>HR or employment decisions for Hüify. Same rule.</li>
+    </ul>
+
+    <h2>Build context</h2>
+    <p>Built the night of May 8, 2026 across nine Cowork sessions. Six extraction sessions (HubSpot R1/R2, Drive R1/R2, Slack/Gmail/Gong R1/R2), one curated backfill, one cockpit graph build, one hub shell. The Phase 2 deploy script consolidates the six extraction outputs into the hub repo before pushing to gh-pages.</p>
+
+    <h2>Contact</h2>
+    <p>Josh Harcus · josh@huify.com</p>
+  </article>
+
+  <footer class="foot"></footer>
+</div>
+
+<script src="../hub.js"></script>
+<script>
+FORGE_HUB.renderMasthead('about');
+FORGE_HUB.loadState().then(FORGE_HUB.renderFooter);
+</script>
+</body>
+</html>

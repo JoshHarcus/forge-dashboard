@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Decisions · Forge HQ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead"></header>
+
+  <div class="lede-block">
+    <div class="kicker">SECTION 05 · SETTLED</div>
+    <h1 class="lede">Decisions.</h1>
+    <p class="deck">What was settled, when, and why. Each entry follows the standard ADR shape: context, decision, alternatives considered, tradeoffs, consequences. Date order, newest first.</p>
+  </div>
+
+  <ul class="entries" id="list"></ul>
+
+  <footer class="foot"></footer>
+</div>
+
+<script src="../hub.js"></script>
+<script>
+(async () => {
+  FORGE_HUB.renderMasthead('decisions');
+  await FORGE_HUB.loadState();
+
+  // Pull from manifest brain/curated/decisions
+  let docs = [];
+  try {
+    const m = await fetch('../brain/manifest.json', { cache: 'no-store' }).then(r => r.json());
+    docs = (m.tree && m.tree.curated && m.tree.curated.decisions) || [];
+  } catch (e) {}
+
+  // For each, fetch frontmatter + h1 to render index entry
+  const list = document.getElementById('list');
+  if (!docs.length) {
+    list.innerHTML = '<li><span class="title" style="color: var(--ink-faint); font-style: italic;">No decisions in manifest yet. Phase 2 consolidation populates this.</span></li>';
+  } else {
+    const entries = await Promise.all(docs.map(async (path) => {
+      try {
+        const text = await fetch('../' + path, { cache: 'no-store' }).then(r => r.text());
+        const { meta, body } = FORGE_HUB.parseFrontmatter(text);
+        if (!FORGE_HUB.isVisible(meta)) return null;
+        const titleMatch = body.match(/^#\s+(.+)$/m);
+        const title = titleMatch ? titleMatch[1].trim() : path.split('/').pop().replace(/\.md$/, '');
+        const date = meta.date || path.match(/\d{4}-\d{2}-\d{2}/)?.[0] || '';
+        return { path, title, date, status: meta.status || '' };
+      } catch (e) {
+        return null;
+      }
+    }));
+    const ok = entries.filter(Boolean).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    list.innerHTML = ok.map(e => `
+      <li>
+        <span class="date">${e.date}${e.status ? ' · ' + e.status : ''}</span>
+        <span class="title">
+          <a href="../brain/?doc=${encodeURIComponent(e.path)}">${e.title}</a>
+        </span>
+      </li>
+    `).join('');
+  }
+
+  FORGE_HUB.renderFooter();
+})();
+</script>
+</body>
+</html>

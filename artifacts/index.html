@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Artifacts · Forge HQ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead"></header>
+
+  <div class="lede-block">
+    <div class="kicker">SECTION 07 · OUTPUTS</div>
+    <h1 class="lede">Artifacts.</h1>
+    <p class="deck">Standalone HTML deliverables. Each one is a self-contained page that can be linked, screenshotted, or sent to a collaborator without the surrounding hub. The hub points to them; they do not depend on the hub to render.</p>
+  </div>
+
+  <div class="gallery" id="gallery">
+    <a class="item" href="gtm-decision-brief.html">
+      <div class="kicker">PRIMARY · ARTIFACT</div>
+      <div class="title">GTM Decision Brief</div>
+      <div class="desc">The canonical short version of the GTM thinking. Editorial layout. Self-contained HTML.</div>
+      <div class="meta">2026-05-08 · arrives in Phase 2</div>
+    </a>
+    <a class="item" href="diagnostic.html">
+      <div class="kicker">DIAGNOSTIC</div>
+      <div class="title">Diagnostic landing</div>
+      <div class="desc">The Hüify diagnostic page used for prospects. Inputs into the lead workflow.</div>
+      <div class="meta">arrives in Phase 2</div>
+    </a>
+    <a class="item" href="../cockpit/">
+      <div class="kicker">VISUALIZATION · GATED</div>
+      <div class="title">Cockpit graph</div>
+      <div class="desc">Force-directed view of the brain. Different aesthetic, deep navy galaxy. Password 1835.</div>
+      <div class="meta">live · separate surface</div>
+    </a>
+  </div>
+
+  <div class="notice" style="margin-top: 48px;">
+    <strong>Phase 2 will populate this gallery</strong> as <code>consolidate.sh</code> finds HTML artifacts in the six session folders and copies them to <code>artifacts/</code>. Anything you drop into the artifacts/ directory manually shows up here on next deploy if you add it to the manifest.
+  </div>
+
+  <footer class="foot"></footer>
+</div>
+
+<script src="../hub.js"></script>
+<script>
+FORGE_HUB.renderMasthead('artifacts');
+FORGE_HUB.loadState().then(FORGE_HUB.renderFooter);
+</script>
+</body>
+</html>

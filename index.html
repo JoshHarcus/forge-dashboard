@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Forge HQ · Hüify operational brain</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Forge HQ: the operational brain for Hüify. Brain docs, extraction state, GTM artifacts, decisions, conversations, and the cockpit graph.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead"></header>
+
+  <div class="lede-block">
+    <div class="kicker">VOL 1 · ISSUE 01 · 2026‑05‑08</div>
+    <h1 class="lede">Forge HQ.<br><span class="em">The operational brain, in one room.</span></h1>
+    <p class="deck">Hüify's working memory. Three thousand nodes captured across HubSpot, Drive, Slack, Gmail, Gong, and the curated backfill. One navigable surface. Built the night of May eighth, twenty twenty six.</p>
+  </div>
+
+  <div class="statbar" id="statbar">
+    <div class="stat"><span>NODES</span><span class="num" id="stat-nodes">3,176</span></div>
+    <div class="stat"><span>LAST SYNC</span><span class="num" id="stat-sync">2026‑05‑08 23:50</span></div>
+    <div class="stat"><span>ACTIVE DEALS</span><span class="num ok" id="stat-deals">5</span></div>
+    <div class="stat"><span>OPEN QUESTIONS</span><span class="num ru" id="stat-q">12</span></div>
+    <div class="stat"><span>BUILD</span><span class="num">v1</span></div>
+  </div>
+
+  <nav class="cardgrid">
+    <a href="brain/">
+      <div>
+        <div class="label">01 / WORKING MEMORY</div>
+        <div class="name">Brain</div>
+      </div>
+      <div class="desc">Curated and work trees. Markdown, lazy‑loaded.</div>
+    </a>
+    <a href="cockpit/">
+      <div>
+        <div class="label">02 / VISUALIZATION <span class="gated"></span></div>
+        <div class="name">Cockpit</div>
+      </div>
+      <div class="desc">Force‑directed graph of every node. Password 1835.</div>
+    </a>
+    <a href="gtm/">
+      <div>
+        <div class="label">03 / GO TO MARKET</div>
+        <div class="name">GTM</div>
+      </div>
+      <div class="desc">Master, ICP, decision brief, clean‑GTM cuts.</div>
+    </a>
+    <a href="extraction/">
+      <div>
+        <div class="label">04 / PIPELINE</div>
+        <div class="name">Extraction</div>
+      </div>
+      <div class="desc">Per‑source counts. Two rounds, six sessions.</div>
+    </a>
+
+    <a href="decisions/">
+      <div>
+        <div class="label">05 / DECIDED</div>
+        <div class="name">Decisions</div>
+      </div>
+      <div class="desc">What was settled, when, and why.</div>
+    </a>
+    <a href="conversations/">
+      <div>
+        <div class="label">06 / WORK</div>
+        <div class="name">Conversations</div>
+      </div>
+      <div class="desc">Threads, briefs, working notes.</div>
+    </a>
+    <a href="artifacts/">
+      <div>
+        <div class="label">07 / OUTPUTS</div>
+        <div class="name">Artifacts</div>
+      </div>
+      <div class="desc">HTML deliverables. Decision Brief, diagnostic, more.</div>
+    </a>
+    <a href="about/">
+      <div>
+        <div class="label">08 / META</div>
+        <div class="name">About</div>
+      </div>
+      <div class="desc">What Forge is, who has access, why it exists.</div>
+    </a>
+  </nav>
+
+  <section class="split">
+    <div>
+      <h2 class="section">What's in the brain right now <span class="meta">by source</span></h2>
+      <div class="bars" id="bars"></div>
+    </div>
+    <div>
+      <h2 class="section">Recent decisions <span class="meta">curated/decisions</span></h2>
+      <ul class="entries" id="recent-decisions"></ul>
+    </div>
+  </section>
+
+  <h2 class="section">Active threads <span class="meta">cluster shortcuts</span></h2>
+  <div class="threads" id="threads"></div>
+
+  <footer class="foot"></footer>
+</div>
+
+<script src="hub.js"></script>
+<script>
+(async () => {
+  FORGE_HUB.renderMasthead('home');
+  const state = await FORGE_HUB.loadState();
+
+  // Stats
+  document.getElementById('stat-nodes').textContent = state.total_nodes.toLocaleString();
+  document.getElementById('stat-sync').textContent = (state.last_sync || '').replace('T', ' ').slice(0, 16);
+  document.getElementById('stat-deals').textContent = state.deals_active;
+  document.getElementById('stat-q').textContent = state.open_enrichment_questions;
+
+  // Bars
+  FORGE_HUB.renderBars(document.getElementById('bars'), state.sources, state.total_nodes);
+
+  // Recent decisions
+  const ul = document.getElementById('recent-decisions');
+  ul.innerHTML = state.recent_decisions.map(d => `
+    <li>
+      <span class="date">${d.date}</span>
+      <span class="title"><a href="brain/?doc=${encodeURIComponent(d.doc)}">${d.title}</a></span>
+    </li>
+  `).join('');
+
+  // Threads
+  const t = document.getElementById('threads');
+  t.innerHTML = state.active_threads.map(th => `
+    <a href="brain/?cluster=${encodeURIComponent(th.cluster)}">
+      <div class="label">CLUSTER · ${th.cluster.toUpperCase()}</div>
+      <div class="name">${th.name}</div>
+      <div class="meta">${th.ctx}</div>
+    </a>
+  `).join('');
+
+  FORGE_HUB.renderFooter();
+})();
+</script>
+</body>
+</html>

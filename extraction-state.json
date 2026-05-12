@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "last_sync": "2026-05-08T23:50:00-06:00",
+  "build_timestamp": "2026-05-08T23:55:00-06:00",
+  "total_nodes": 3176,
+  "deals_active": 5,
+  "open_enrichment_questions": 12,
+  "rounds_complete": 2,
+  "sources": [
+    {
+      "key": "hubspot_asana",
+      "name": "HubSpot + Asana",
+      "count": 2670,
+      "rounds": 2,
+      "color": "ink",
+      "path": "brain/extracted/hubspot/",
+      "session_paths": [
+        "local_fc8c9015-47f0-44a6-96da-93afea2ea5d5",
+        "local_bd10d68c-43c8-406a-b955-56087df5de89"
+      ]
+    },
+    {
+      "key": "drive",
+      "name": "Drive",
+      "count": 429,
+      "rounds": 2,
+      "color": "rust",
+      "path": "brain/extracted/drive/",
+      "session_paths": [
+        "local_d9d55bc5-c5b7-4e05-bc23-eac940dd0404",
+        "local_4f8100c0-1ec3-46ea-b899-cb6cc1f5ddc0"
+      ]
+    },
+    {
+      "key": "comms",
+      "name": "Slack/Gmail/Gong",
+      "count": 68,
+      "rounds": 2,
+      "color": "olive",
+      "path": "brain/extracted/comms/",
+      "session_paths": [
+        "local_7d03594a-bf26-41cd-afb4-954e1401f8d7",
+        "local_d26814a2-73b7-4d46-85f4-6751fa3145fe"
+      ]
+    },
+    {
+      "key": "backfill",
+      "name": "Brain Backfill",
+      "count": 9,
+      "rounds": 1,
+      "color": "muted",
+      "path": "brain/curated/",
+      "session_paths": [
+        "dispatch-parent"
+      ]
+    }
+  ],
+  "active_deals": [
+    {
+      "name": "Carpenter",
+      "stage": "live",
+      "owner": "josh"
+    },
+    {
+      "name": "Mediafly",
+      "stage": "live",
+      "owner": "josh"
+    },
+    {
+      "name": "Hansen & Rosasco",
+      "stage": "live",
+      "owner": "josh"
+    },
+    {
+      "name": "GME Supply",
+      "stage": "live",
+      "owner": "josh"
+    },
+    {
+      "name": "Hall Benefits Law",
+      "stage": "live",
+      "owner": "josh"
+    }
+  ],
+  "active_threads": [
+    {
+      "name": "Carpenter",
+      "ctx": "deal in flight",
+      "cluster": "carpenter"
+    },
+    {
+      "name": "Mediafly",
+      "ctx": "deal in flight",
+      "cluster": "mediafly"
+    },
+    {
+      "name": "Hansen & Rosasco",
+      "ctx": "RevOps engagement",
+      "cluster": "hansen-rosasco"
+    },
+    {
+      "name": "GME Supply",
+      "ctx": "active RevOps client",
+      "cluster": "gme"
+    },
+    {
+      "name": "Forge architecture",
+      "ctx": "internal infra",
+      "cluster": "forge"
+    }
+  ],
+  "recent_decisions": [
+    {
+      "date": "2026-05-08",
+      "title": "Hub-cockpit split: editorial layer over visualization layer",
+      "doc": "brain/curated/decisions/2026-05-08-hub-cockpit-split.md"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Federated identity: visible_to as default access pattern",
+      "doc": "brain/curated/decisions/2026-05-08-federated-identity.md"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "Two-round extraction strategy across 6 sessions",
+      "doc": "brain/curated/decisions/2026-05-08-extraction-strategy.md"
+    }
+  ],
+  "totals": {
+    "nodes": 3185,
+    "by_source": {
+      "unknown": 29,
+      "backfill": 10,
+      "Conversation with Josh, May 7, 2026, late-night Forge planning session": 1,
+      "Conversation with Ben Riordan, May 7, 2026, Slack call": 1,
+      "Extracted from github.com/karpathy/llm-council, May 8 2026": 1,
+      "github.com/karpathy, fetched May 8 2026": 1,
+      "Established 2026-05-06 after Carpenter Chartered recap email draft used \"thanks for the time\" language Josh corrected": 1,
+      "Established 2026-05-06 after Claude tried to create a Google Calendar invite for the Carpenter Thursday meeting that Josh had already sent": 1,
+      "forge-extraction": 2,
+      "asana": 521,
+      "drive": 507,
+      "gmail": 9,
+      "gong": 28,
+      "hubspot": 2034,
+      "slack": 35,
+      "HubSpot deal 59654099549 + Gmail + Gong call ID 5141176140919207146": 1,
+      "anthropic.com/news/claude-design-anthropic-labs and supporting coverage": 1,
+      "HubSpot deal 54616184441 + Gong call ID 5141176140919207146 (5/5 process walkthrough — wrong, this was Carpenter) / actual Mediafly Gong call from 5/6 + iMessage thread + Lee email thread": 1,
+      "Lee Roquet collaboration on the Mediafly deal + Josh Gillespie aomni $3k/mo benchmark": 1
+    },
+    "by_type": {
+      "document": 286,
+      "decision": 8,
+      "playbook": 6,
+      "rule": 2,
+      "log": 3,
+      "index": 3,
+      "project": 36,
+      "task": 487,
+      "folder": 122,
+      "spreadsheet": 51,
+      "pdf": 28,
+      "presentation": 34,
+      "image": 1,
+      "shortcut": 1,
+      "video": 1,
+      "email-thread": 8,
+      "email-thread-batch": 1,
+      "call": 27,
+      "gong-call-index": 1,
+      "activity": 922,
+      "company": 389,
+      "contact": 615,
+      "deal": 98,
+      "owner": 6,
+      "slack-channel-index": 2,
+      "slack-channel": 22,
+      "slack-dm": 3,
+      "slack-dm-index": 1,
+      "slack-topic": 5,
+      "slack_channel": 2,
+      "client_summary": 12,
+      "conversation": 1,
+      "reference": 1
+    }
+  },
+  "last_updated": "2026-05-12T16:32:27.235Z"
+}

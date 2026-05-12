@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Conversations · Forge HQ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead"></header>
+
+  <div class="lede-block">
+    <div class="kicker">SECTION 06 · WORK</div>
+    <h1 class="lede">Conversations.</h1>
+    <p class="deck">In-flight threads, briefs, and working notes. The work tree is messier than curated by design. If something here graduates, it migrates to <a href="../decisions/">decisions</a> or <a href="../brain/">curated</a>.</p>
+  </div>
+
+  <ul class="entries" id="list"></ul>
+
+  <footer class="foot"></footer>
+</div>
+
+<script src="../hub.js"></script>
+<script>
+(async () => {
+  FORGE_HUB.renderMasthead('conversations');
+  await FORGE_HUB.loadState();
+
+  let docs = [];
+  try {
+    const m = await fetch('../brain/manifest.json', { cache: 'no-store' }).then(r => r.json());
+    docs = (m.tree && m.tree.work && m.tree.work.conversations) || [];
+  } catch (e) {}
+
+  const list = document.getElementById('list');
+  if (!docs.length) {
+    list.innerHTML = `
+      <li><span class="title" style="color: var(--ink-faint); font-style: italic;">
+        No conversations in manifest yet. The Phase 2 backfill places them under <code>brain/work/conversations/</code> and re-runs the manifest builder.
+      </span></li>
+    `;
+  } else {
+    const entries = await Promise.all(docs.map(async (path) => {
+      try {
+        const text = await fetch('../' + path, { cache: 'no-store' }).then(r => r.text());
+        const { meta, body } = FORGE_HUB.parseFrontmatter(text);
+        if (!FORGE_HUB.isVisible(meta)) return null;
+        const titleMatch = body.match(/^#\s+(.+)$/m);
+        const title = titleMatch ? titleMatch[1].trim() : path.split('/').pop().replace(/\.md$/, '');
+        const date = meta.date || path.match(/\d{4}-\d{2}-\d{2}/)?.[0] || '';
+        return { path, title, date, ctx: meta.with || meta.cluster || '' };
+      } catch (e) { return null; }
+    }));
+    const ok = entries.filter(Boolean).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    list.innerHTML = ok.map(e => `
+      <li>
+        <span class="date">${e.date}</span>
+        <span class="title">
+          <a href="../brain/?doc=${encodeURIComponent(e.path)}">${e.title}</a>
+          ${e.ctx ? `<div class="ctx">with ${e.ctx}</div>` : ''}
+        </span>
+      </li>
+    `).join('');
+  }
+
+  FORGE_HUB.renderFooter();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GTM · Forge HQ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead"></header>
+
+  <div class="lede-block">
+    <div class="kicker">SECTION 03 · GO TO MARKET</div>
+    <h1 class="lede">GTM.</h1>
+    <p class="deck">Positioning, ICP, and the working master document. The Decision Brief is the canonical short version. Master and clean cuts hold the longer reasoning.</p>
+  </div>
+
+  <div class="gallery">
+    <a class="item" href="../artifacts/gtm-decision-brief.html">
+      <div class="kicker">CANONICAL · HTML</div>
+      <div class="title">GTM Decision Brief</div>
+      <div class="desc">The single page that captures the decision, the audience, the offer, and the next motion. Editorial layout.</div>
+      <div class="meta">2026-05-08 · primary</div>
+    </a>
+    <a class="item" href="../brain/?doc=brain/curated/playbooks/gtm-v3-master.md">
+      <div class="kicker">DEEP · MARKDOWN</div>
+      <div class="title">GTM v3 Master</div>
+      <div class="desc">Long-form working doc. Positioning hypotheses, audience cuts, offer experiments, kill criteria.</div>
+      <div class="meta">brain/curated/playbooks · arrives in Phase 2</div>
+    </a>
+    <a class="item" href="../brain/?doc=brain/curated/playbooks/icp.md">
+      <div class="kicker">TARGET · MARKDOWN</div>
+      <div class="title">ICP</div>
+      <div class="desc">Who we sell to. Firmographic and technographic cuts, plus the tells that mark a non-fit.</div>
+      <div class="meta">brain/curated/playbooks · arrives in Phase 2</div>
+    </a>
+    <a class="item" href="../brain/?doc=brain/curated/playbooks/clean-gtm.md">
+      <div class="kicker">DISTILLED · MARKDOWN</div>
+      <div class="title">Clean GTM</div>
+      <div class="desc">The one-page distillation of the master. Use for outbound briefings and partner conversations.</div>
+      <div class="meta">brain/curated/playbooks · arrives in Phase 2</div>
+    </a>
+  </div>
+
+  <h2 class="section" style="margin-top: 56px;">Embedded brief <span class="meta">live render</span></h2>
+  <div class="notice"><strong>Phase 2 will inline the GTM Decision Brief here</strong> via iframe once <code>consolidate.sh</code> places it under <code>artifacts/gtm-decision-brief.html</code>. Until then, the gallery card above links to the standalone file.</div>
+  <iframe id="brief-frame" src="../artifacts/gtm-decision-brief.html" style="width:100%;min-height:780px;border:1px solid var(--rule, #ccc);background:#F2EBDD;"></iframe>
+
+  <footer class="foot"></footer>
+</div>
+
+<script src="../hub.js"></script>
+<script>
+FORGE_HUB.renderMasthead('gtm');
+FORGE_HUB.loadState().then(FORGE_HUB.renderFooter);
+// If the brief isn't yet there, hide the iframe gracefully
+const fr = document.getElementById('brief-frame');
+fr.addEventListener('error', () => fr.style.display = 'none');
+fetch(fr.src, { method: 'HEAD' }).then(r => { if (!r.ok) fr.style.display = 'none'; }).catch(() => fr.style.display = 'none');
+</script>
+</body>
+</html>

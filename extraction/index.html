@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Extraction · Forge HQ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead"></header>
+
+  <div class="lede-block">
+    <div class="kicker">SECTION 04 · PIPELINE</div>
+    <h1 class="lede">Extraction.</h1>
+    <p class="deck">Where the nodes came from, how many landed, and which session pulled them. Updated by <code>consolidate.sh</code> on each Phase 2 run.</p>
+  </div>
+
+  <div class="status-grid" id="kpi"></div>
+
+  <h2 class="section">Per-source breakdown <span class="meta">two rounds</span></h2>
+  <div class="bars" id="bars" style="margin-bottom: 64px;"></div>
+
+  <h2 class="section">Source detail <span class="meta">session paths</span></h2>
+  <div id="src-detail"></div>
+
+  <footer class="foot"></footer>
+</div>
+
+<script src="../hub.js"></script>
+<script>
+(async () => {
+  FORGE_HUB.renderMasthead('extraction');
+  const state = await FORGE_HUB.loadState();
+
+  const kpi = document.getElementById('kpi');
+  kpi.innerHTML = `
+    <div class="card">
+      <div class="label">TOTAL NODES</div>
+      <div class="num">${state.total_nodes.toLocaleString()}</div>
+      <div class="sub">${state.rounds_complete} rounds complete</div>
+    </div>
+    <div class="card">
+      <div class="label">SOURCES</div>
+      <div class="num">${state.sources.length}</div>
+      <div class="sub">connected and pulling</div>
+    </div>
+    <div class="card">
+      <div class="label">ACTIVE DEALS</div>
+      <div class="num">${state.deals_active}</div>
+      <div class="sub">currently in motion</div>
+    </div>
+    <div class="card">
+      <div class="label">LAST SYNC</div>
+      <div class="num" style="font-size:22px;">${(state.last_sync || '').slice(0, 16).replace('T', ' ')}</div>
+      <div class="sub">click consolidate.sh to refresh</div>
+    </div>
+  `;
+
+  FORGE_HUB.renderBars(document.getElementById('bars'), state.sources, state.total_nodes);
+
+  // Source detail
+  const sd = document.getElementById('src-detail');
+  sd.innerHTML = state.sources.map(s => `
+    <div style="border-bottom: 1px dotted var(--rule); padding: 18px 0;">
+      <div style="display:flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 12px;">
+        <div style="font-family: var(--serif); font-size: 22px;">${s.name}</div>
+        <div class="mono" style="color: var(--ink-muted);">${s.count.toLocaleString()} nodes · ${s.rounds} round${s.rounds===1?'':'s'}</div>
+      </div>
+      <div class="mono" style="color: var(--ink-faint); margin-top: 6px; font-size: 10.5px; letter-spacing: 0.08em;">
+        path: <code>${s.path}</code>
+      </div>
+      <div class="mono" style="color: var(--ink-faint); margin-top: 4px; font-size: 10.5px; letter-spacing: 0.08em;">
+        sessions: ${s.session_paths.map(p => `<code>${p}</code>`).join(' · ')}
+      </div>
+    </div>
+  `).join('');
+
+  FORGE_HUB.renderFooter();
+})();
+</script>
+</body>
+</html>
