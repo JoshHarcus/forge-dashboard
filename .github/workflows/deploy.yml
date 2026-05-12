@@ -4,23 +4,7 @@ on:
   push:
     branches:
       - main
-      - staging
-    paths:
-      - 'brain/**'
-      - 'cockpit/**'
-      - 'index.html'
-      - 'styles.css'
-      - 'hub.js'
-      - 'scripts/build-graph.js'
-      - 'extraction-state.json'
-      - 'forge-hq/**'
-
   workflow_dispatch:
-    inputs:
-      reason:
-        description: 'Why are you running this manually?'
-        required: false
-        default: 'Manual deploy'
 
 concurrency:
   group: "pages"
@@ -32,72 +16,20 @@ permissions:
   id-token: write
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Detect deploy root
-        id: detect
-        run: |
-          if [ -d "forge-hq" ]; then
-            echo "root=forge-hq" >> $GITHUB_OUTPUT
-            echo "Using forge-hq/ as deploy root"
-          else
-            echo "root=." >> $GITHUB_OUTPUT
-            echo "Using repo root as deploy root"
-          fi
-
-      - name: Build graph data
-        run: |
-          if [ -f "${{ steps.detect.outputs.root }}/scripts/build-graph.js" ]; then
-            node ${{ steps.detect.outputs.root }}/scripts/build-graph.js ${{ steps.detect.outputs.root }}
-          else
-            echo "build-graph.js not found, skipping graph build (cockpit will use existing nodes.json/edges.json)"
-          fi
-
-      - name: Validate output
-        run: |
-          ROOT="${{ steps.detect.outputs.root }}"
-          if [ ! -f "$ROOT/index.html" ]; then
-            echo "ERROR: $ROOT/index.html missing"
-            exit 1
-          fi
-          if [ -d "$ROOT/cockpit" ] && [ ! -f "$ROOT/cockpit/data/nodes.json" ]; then
-            echo "WARNING: cockpit/data/nodes.json missing — cockpit graph will be empty"
-          fi
-          echo "Deploy root is valid: $ROOT"
-          ls -la "$ROOT"
-
       - name: Setup Pages
-        uses: actions/configure-pages@v4
-
+        uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ${{ steps.detect.outputs.root }}
-
+          path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-      - name: Report deploy result
-        run: |
-          echo "Deployed to: ${{ steps.deployment.outputs.page_url }}"
-          echo "Commit: ${{ github.sha }}"
-          echo "Triggered by: ${{ github.event_name }}"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "Reason: ${{ github.event.inputs.reason }}"
-          fi

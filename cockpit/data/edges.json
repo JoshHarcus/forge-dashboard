@@ -1,29 +1,3710 @@
 [
-  { "source": "carpenter-chartered", "target": "plus-one-pricing-model", "weight": 3, "type": "explicit" },
-  { "source": "carpenter-chartered", "target": "advisor-frame-rule", "weight": 2, "type": "explicit" },
-  { "source": "mediafly-plus-one", "target": "plus-one-pricing-model", "weight": 3, "type": "explicit" },
-  { "source": "mediafly-plus-one", "target": "huify-skills-audit", "weight": 2, "type": "explicit" },
-  { "source": "mediafly-plus-one", "target": "advisor-frame-rule", "weight": 2, "type": "explicit" },
-  { "source": "mediafly-plus-one", "target": "day-of-meeting-prep", "weight": 1, "type": "explicit" },
-  { "source": "wave-energy-services", "target": "plus-one-pricing-model", "weight": 2, "type": "explicit" },
-  { "source": "wave-energy-services", "target": "advisor-frame-rule", "weight": 2, "type": "explicit" },
-  { "source": "hansen-rosasco", "target": "advisor-frame-rule", "weight": 3, "type": "explicit" },
-  { "source": "gme-supply", "target": "huify-skills-audit", "weight": 1, "type": "explicit" },
-  { "source": "ensight-tech", "target": "huify-skills-audit", "weight": 2, "type": "explicit" },
-  { "source": "ensight-tech", "target": "call-wrap-skill", "weight": 1, "type": "explicit" },
-  { "source": "casepacer", "target": "advisor-frame-rule", "weight": 1, "type": "explicit" },
-  { "source": "brain-sync-skill", "target": "forge-identity-architecture", "weight": 3, "type": "explicit" },
-  { "source": "brain-sync-skill", "target": "huify-skills-audit", "weight": 2, "type": "explicit" },
-  { "source": "brain-sync-skill", "target": "forge-cockpit", "weight": 3, "type": "explicit" },
-  { "source": "call-wrap-skill", "target": "dont-recreate-user-actions", "weight": 2, "type": "explicit" },
-  { "source": "call-wrap-skill", "target": "huify-skills-audit", "weight": 2, "type": "explicit" },
-  { "source": "day-of-meeting-prep", "target": "brain-sync-skill", "weight": 2, "type": "explicit" },
-  { "source": "day-of-meeting-prep", "target": "huify-skills-audit", "weight": 1, "type": "explicit" },
-  { "source": "forge-cockpit", "target": "forge-identity-architecture", "weight": 3, "type": "explicit" },
-  { "source": "three-huify-properties", "target": "advisor-frame-rule", "weight": 2, "type": "explicit" },
-  { "source": "three-huify-properties", "target": "forge-identity-architecture", "weight": 1, "type": "explicit" },
-  { "source": "plus-one-mmo-gamification", "target": "mediafly-plus-one", "weight": 1, "type": "latent" },
-  { "source": "plus-one-mmo-gamification", "target": "huify-skills-audit", "weight": 1, "type": "latent" },
-  { "source": "advisor-frame-rule", "target": "forge-identity-architecture", "weight": 1, "type": "explicit" },
-  { "source": "dont-recreate-user-actions", "target": "forge-identity-architecture", "weight": 1, "type": "explicit" }
+  {
+    "source": "curated__decisions__forge-agent-ecosystem-vision-2026-05-07",
+    "target": "curated__decisions__forge-architecture-direction-2026-05-07",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__decisions__forge-agent-ecosystem-vision-2026-05-07",
+    "target": "work__conversations__2026-05-07-ben-forge-strategic-sync",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__decisions__forge-architecture-direction-2026-05-07",
+    "target": "work__conversations__2026-05-07-ben-forge-strategic-sync",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__decisions__forge-llm-council-pattern-2026-05-08",
+    "target": "curated__decisions__forge-architecture-direction-2026-05-07",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__decisions__forge-llm-council-pattern-2026-05-08",
+    "target": "curated__decisions__forge-agent-ecosystem-vision-2026-05-07",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__decisions__forge-llm-council-pattern-2026-05-08",
+    "target": "work__conversations__2026-05-07-ben-forge-strategic-sync",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__decisions__forge-redesign-priorities-2026-05-08",
+    "target": "curated__decisions__forge-architecture-direction-2026-05-07",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__decisions__forge-redesign-priorities-2026-05-08",
+    "target": "curated__decisions__forge-agent-ecosystem-vision-2026-05-07",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__decisions__forge-redesign-priorities-2026-05-08",
+    "target": "curated__decisions__forge-llm-council-pattern-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__decisions__forge-redesign-priorities-2026-05-08",
+    "target": "curated__decisions__karpathy-recent-repos-applied-to-forge-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__decisions__forge-redesign-priorities-2026-05-08",
+    "target": "work__marketing__clean-gtm-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__decisions__karpathy-recent-repos-applied-to-forge-2026-05-08",
+    "target": "curated__decisions__forge-architecture-direction-2026-05-07",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__decisions__karpathy-recent-repos-applied-to-forge-2026-05-08",
+    "target": "curated__decisions__forge-agent-ecosystem-vision-2026-05-07",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__decisions__karpathy-recent-repos-applied-to-forge-2026-05-08",
+    "target": "curated__decisions__forge-llm-council-pattern-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__decisions__karpathy-recent-repos-applied-to-forge-2026-05-08",
+    "target": "work__conversations__2026-05-07-ben-forge-strategic-sync",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__playbooks__brain-progress-dashboard-2026-05-08",
+    "target": "curated__playbooks__client-summary-template-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__playbooks__brain-progress-dashboard-2026-05-08",
+    "target": "curated__decisions__forge-redesign-priorities-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__playbooks__client-summary-template-2026-05-08",
+    "target": "curated__decisions__forge-redesign-priorities-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__playbooks__client-summary-template-2026-05-08",
+    "target": "work__marketing__icp-high-volume-pi-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "curated__playbooks__client-summary-template-2026-05-08",
+    "target": "work__marketing__gtm-v3-master-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "work__conversations__2026-05-07-ben-forge-strategic-sync",
+    "target": "curated__decisions__forge-architecture-direction-2026-05-07",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "work__forge__claude-design-getting-started-2026-05-08",
+    "target": "work__marketing__clean-gtm-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "work__forge__claude-design-getting-started-2026-05-08",
+    "target": "work__marketing__icp-high-volume-pi-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "work__forge__claude-design-getting-started-2026-05-08",
+    "target": "curated__decisions__forge-redesign-priorities-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "work__marketing__clean-gtm-2026-05-08",
+    "target": "curated__decisions__forge-redesign-priorities-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "work__marketing__clean-gtm-2026-05-08",
+    "target": "work__conversations__2026-05-07-ben-forge-strategic-sync",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "work__marketing__gtm-v3-master-2026-05-08",
+    "target": "work__marketing__clean-gtm-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "work__marketing__gtm-v3-master-2026-05-08",
+    "target": "work__marketing__icp-high-volume-pi-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "work__marketing__gtm-v3-master-2026-05-08",
+    "target": "curated__decisions__forge-redesign-priorities-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "work__marketing__gtm-v3-master-2026-05-08",
+    "target": "work__forge__claude-design-getting-started-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "work__marketing__icp-high-volume-pi-2026-05-08",
+    "target": "work__marketing__clean-gtm-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "work__marketing__icp-high-volume-pi-2026-05-08",
+    "target": "curated__decisions__forge-redesign-priorities-2026-05-08",
+    "relationship_type": "references",
+    "weight": 2
+  },
+  {
+    "source": "extracted__asana__projects__1213569652687558-hansen-rosasco",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214541079728057-phase-2-first-per-client-identity-repo-hansen-rosa",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__other__top-level__expenses-form-hansen-rosasco-llp-file-responses-1qFl9emv",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__100156610923-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__100194493824-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__100403254397-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__100417830974-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__100425043325-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__100659043388-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__100695337602-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106147913107-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106588787236-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__107008080539-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__107320124228-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__107721490731-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__107989293694-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108452023186-note-meeting-prep-hansen-rosasco-llp-2026-04-23-meeting",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108525168217-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108725857155-note-meeting-prep-hansen-rosasco-llp-2026-04-27-meeting",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108843078453-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108924995420-note-meeting-prep-hansen-rosasco-llp-2026-04-30-auto-ge",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__88228843173-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__88440026682-call-call-with-dan-hansen",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__88440114786-call-call-with-dan-hansen",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__88440116138-call-call-with-dan-hansen",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__88440137323-call-call-with-dan-hansen",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__88440139127-call-call-with-dan-hansen",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__89712219655-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__94024972318-meeting-gong-zoom-eric-hansen-josh-harcus-connect",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__94062736557-meeting-eric-hansen-josh-harcus-connect",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__94190572560-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__97325182860-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__97361316221-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__97361316222-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__97399011192-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__97399011193-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__97417468493-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__97417468495-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__97417468496-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__97417468498-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__97417468499-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__97417497935-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__98504980819-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__98989893429-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99076855934-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99114708006-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99417140605-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99417140606-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99417140607-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99417140608-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99417140612-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99417140613-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99417140614-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99417140615-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99417140619-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99417140621-call-call-with-eric-hansen",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99417140622-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99417140623-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99417140624-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99419870247-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99419870275-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99419870287-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99513630134-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99513630136-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99513630208-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99513630213-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99513630214-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99513630215-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99523042311-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99523042316-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99642168444-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__99643501987-call-call-with-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__companies__32451263031-hansen-rosasco-llp",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__contacts__116683665696-dan-hansen",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__contacts__2259239-hansen-hunt",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__36292465222-hansen-rosasco-llp-sales-enterprise-ent-bundle",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__37704999481-hansen-rosasco-llp-intake-and-beyond",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__slack__channels__hansen-rosasco-deal-2025-archive",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__slack__channels__int-hansen-rosasco-2025-archive",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__slack__channels__int-hansen-rosasco-911victimlawyers",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__TAGGING-INDEX",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__TAGGING-METHODOLOGY",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-001-intake-call-playbook",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-002-intake-quota-sop",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-003-lawruler-migration-playbook",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-004-case-os-framework",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-005-hubspot-playbook-writeup",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-006-process-improvement-interview-guide",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-007-hansen-playbook-1a-1b",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-008-audit-notepad",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-009-records-import-explained",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-010-camp-lejeune-process-improvements",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-011-intake-system-launch-plan",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-012-reporting-configurations",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-013-agreements",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-014-wtc-templates",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-015-estate-templates",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-016-data-model",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-drive-017-meetings-notes",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-gong-001-connect-calls",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-gong-002-process-interviews",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-gong-003-leadership-meetings",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-hubspot-001-deal-1",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-hubspot-002-deal-2",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-hubspot-003-contact-daniel",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-hubspot-004-company",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-slack-001-channel-archive",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "silver__forge-silver-hansen__tagged__hansen-slack-002-dms-daniel",
+    "target": "summaries__active__hansen-rosasco__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__projects__1213569821440181-casepacer",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__casepacer___folder",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__casepacer__casepacer-erika-folder",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__casepacer__casepacercom-folder-root",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__casepacer__online-accounts-casepacer-1wP3GVgK",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__casepacer__online-accounts",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__contracts__mutual-nda-huify-casepacer-1KZlZ0DT",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__contracts__mutual-nda-huify-casepacer-signed-pdf-1K35xAEs",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__casepacer-prospect__2026-sales-process-sales-training-casepacer-10tQ9qMc",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__casepacer-prospect__andrew_coaching_call_2-25-26docx-1qxN_Lyb",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__casepacer-prospect__casepacer-billing-pricing-internal-pain-points-brief-1fNORM3U",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__casepacer-prospect__casepacer-billing-pricing-internal-pain-points-briefdocx-1m4fE0Ik",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__casepacer-prospect__casepacer-revenue-readiness-questionnaire-1pDyDFno",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__casepacer-prospect__casepacer-sales-process-summary-1qUQQcpU",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__casepacer-prospect__casepacer_jim_offsite_update_3-4-26-1dnfGNPV",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__casepacer-prospect__casepacer_pricing_models_internal_reference-cheatsheetpdf-176ffcwk",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__casepacer-prospect__mutual-non-disclosure-agreement-huify-casepacer-12925-957-am-1K35xAEs",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__casepacer-prospect__mutual-non-disclosure-agreement-huify-casepacer-1KZlZ0DT",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__leads-lower-funnel__casepacercom-1nuRPwni",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__gong__calls__2026-02-17-casepacer-kickoff",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__105624061829-meeting-pipeline-casepacer",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109335966797-note-meeting-prep-casepacer-2026-05-08-andrew-gannon-jo",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__companies__43010771251-casepacer",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__47453868362-casepacer-hubspot-upgrade-pro-platform",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__56135918639-casepacer-crm-kickstart-2wks",
+    "target": "summaries__active__casepacer__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__projects__1213569821440217-ensight-tech",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__projects__1213616871297914-ensight-tech",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214553382932920-ensight-technologies-phil-s-revops-deal-time-track",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__ensight__huify-services-summary-ensight-technologies-1QTztd2a",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__ensight__negotiation-impact-report-ensight-technologies-x-hubspot-1lowPc-d",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__ensight__online-accounts-ensight-tech-1jI6QhA8",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__recent__huify_services_summary_ensight_technologiesdocx-1obvBATt",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__gong__calls__2026-02-04-ensight-kickoff",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__105932846398-meeting-dns-records-sync-ensight-tech",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106848265145-meeting-ensight-huddle",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108148100748-note-gong-zoom-ensight-connect-see-the-call-recording-a",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108149010318-meeting-ensight-connect",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108296206708-call-ensight-connect",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__companies__20960961036-ensight-technologies",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__35901000990-ensight-technologies-operational-efficiency",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__54956810271-ensight-tech-upgrade",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__55475450675-ensight-marketing-services",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__59566439863-ensight-technologies-phil-s-revops-project",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__slack__channels__ensight-huify-2024-archive",
+    "target": "summaries__active__ensight-tech__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__projects__1213617101405960-gme-supply-hubspot-optimization",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1213616871297872-high-intent-contacts-segment",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1213972534179855-review-gme-dashboard-rules",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214064173074481-review-gme-tradeshow-attribution",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214229046814982-linkedin-research-on-gme-sales-org",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214229046814989-build-the-gme-notion-overview-page",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214314449179352-gme-meeting-prep",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214314449179363-meeting-with-gme",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214375278983755-gme-weekly-sync-prep",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214375278983768-gme-sync-john-g-john-m-meeting",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214393658376470-follow-up-with-gme-on-stakeholder-needs-list-hubsp",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214393693799733-draft-sow-for-gme-phase-2-deal-to-invoice-custom-o",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214407505262821-follow-up-with-gme-on-nascc-2026-attendance-list-p",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214407705227473-update-gme-dashboard-refinements-date-range-filter",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214457344610553-build-gme-phase-2-business-value-slide-deck-invoic",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214553136348482-gme-supply-data-cleanup-dedup-deal-time-tracking",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214558364708077-update-gme-john-g-process-completed-personal-email",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214590297414866-gme-dashboard-convert-revenue-by-event-contacts-by",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214649249196041-path-a-fragmented-firm-landing-page-tortscalecomdo",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__gme__can_corporate_addresses_20260324xlsx-1gdK-ZYo",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__gme__can_customer_contacts_20260324xlsx-1VlVQ17O",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__gme__marketing-contacts-list-1bH9sH7-",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__contracts__gme_engagement_agreementdocx-1ATKAxKA",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__contracts__gme_engagement_agreementdocx-variant-1jcrqZvG",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__financial__gme-supply-hubspot-renewal-negotiation-proposal-1Vwhw4c_",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__gmail__threads__2026-04-16-gme-pimcore-integration",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__gmail__threads__2026-04-29-gme-sync-recap-next-steps",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__gong__calls__2025-12-31-gme-hubspot-upgrade",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__gong__calls__2026-01-23-gme-exploratory",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__105534397587-meeting-gme-supply-pre-kickoff",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__105617765232-meeting-john-g-team-sync-gme",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__105800367642-meeting-gme-supply-kickoff",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106046293380-meeting-gme-weekly-sync",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106054380579-call-call-with-gme-supply",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106059800580-note-gong-zoom-gme-weekly-sync-see-the-call-recording-a",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106060028694-note-gong-zoom-gme-weekly-sync-see-the-call-recording-a",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106062193734-note-gong-strategic-planning-gme-huify-2026",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106068737158-note-gong-zoom-gme-weekly-sync-see-the-call-recording-a",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106069236788-note-gong-zoom-gme-weekly-sync-see-the-call-recording-a",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106572881747-call-call-with-gme-supply",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106765815480-meeting-gme-weekly-sync",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106799021870-meeting-gme-sync-deduplication-solution",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106865526388-call-call-with-gme-supply",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106900996011-call-call-with-gme-supply",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106976653734-meeting-wtchp-sequences-and-segments-h-r",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__107073898160-meeting-gme-weekly-sync",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__107099215929-call-call-with-gme-supply",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__107185992233-meeting-gme-weekly-sync",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__107322122375-call-call-with-gme-supply",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__107766275361-meeting-gme-sync",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__107848319373-call-call-with-gme-supply",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__107853590075-meeting-gme-weekly-sync",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108060732953-note-gong-gme-weekly-sync",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108064940177-call-call-with-gme-supply",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108411748212-meeting-strategic-planning-gme-huify-2026",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108412726917-note-gong-gme-weekly-sync",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108708194839-note-gong-zoom-gme-x-h-ify-invoice-object-discovery-see",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108736280102-meeting-gme-x-h-ify-invoice-object-discovery",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108739393060-note-gong-gme-x-h-ify-invoice-object-discovery",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108883434398-meeting-gme-weekly-sync",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108894734721-call-call-with-gme-supply",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108938881961-email-gme-sync-recap-next-steps",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108943380547-note-gong-gme-weekly-sync",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109180806571-email-re-gme-sync-recap-next-steps",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109181119626-email-fwd-gme-sync-recap-next-steps",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109190715914-email-re-gme-sync-recap-next-steps",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109214956210-note-gong-gme-weekly-sync",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109214960212-call-call-with-gme-supply",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109228692587-meeting-gme-weekly-sync",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109239107596-meeting-gme-weekly-sync",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__companies__51690647884-gme-supply",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__55475655093-team-1-academy-gme-supply-new-portal",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__56545089192-rcc-gme-supply-feb26",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__56646752110-gme-supply-phase-1-services",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__58479540595-gme-supply-data-cleanup-dedup",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__59943838045-911cancerclaim-com-sms-segment",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__slack__channels__int-gme-supply",
+    "target": "summaries__active__gme-supply__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214316889858747-publish-first-case-study-seda-law-or-hr",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__seda___folder",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__seda__lead-data-jan-12th-2026-estate-planning-seda-law-1dcE2sCt",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__seda__online-accounts-seda-law-1HFld_6z",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__seda__online-accounts",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__seda__pipeline-stagesxlsx-1DnrHdJM",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__leads-lower-funnel__sedalawfirmcom-1BtFncga",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__seda__seda-law-decision-doc-internal-alignment-with-hubspot-1LrqHFEA",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__seda__seda-law-executive-summary-recommendation-1HaKFEz0",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__seda__seda-law-roi-model-1wpxcjQL",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__107905702219-note-gong-zoom-seda-law-firm-explore-see-the-call-recor",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__107905702221-note-gong-zoom-seda-law-firm-advise-on-plan-see-the-cal",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__107905702223-note-gong-zoom-seda-law-planning-see-the-call-recording",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__companies__45069409867-seda-law-firm",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__contacts__177399382660-roberto-seda",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__49700744565-seda-law-intake-hubspot-1-month",
+    "target": "summaries__active__seda__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214317078798542-carpenter-chartered-design-partner-conversation",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214317148912768-decide-carpenter-chartered-scope-auditretainer-or-",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214459422063572-sales-send-carpenter-chartered-case-velocity-reven",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214459565129395-sales-build-carpenter-chartered-pricing-proposal-h",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214553345211600-carpenter-chartered-hubspot-implementation-deal-ti",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214558238863695-sales-send-carpenter-chartered-thurs-5-7-1-30-pm-e",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214622804156507-carpenter-respond-to-sabina-s-three-demo-questions",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214622804157692-carpenter-set-up-shannon-quinn-h-r-reference-call",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214622804157756-carpenter-john-niles-1-1-call-direction-sequence-a",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214622806068715-carpenter-litify-and-case-pacer-intros-for-john",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214622806068812-carpenter-send-john-list-of-vendor-evaluation-ques",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214623011821344-carpenter-build-phase-1-scope-sketch-decision-crit",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214623073906271-carpenter-june-2-finalized-plan-call-prep",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214623073906335-carpenter-update-zawad-katie-gracie-post-5pm-set-h",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214623073906399-carpenter-build-va-disability-roi-calculator-inter",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214623073906463-carpenter-build-ammunition-doc-for-risk-averse-par",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__recent__carpenter-john-recommended-pathmd-13JiedH_",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__recent__carpenter_chartered_compliance_primerpdf-1e7Awgul",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__recent-r2__carpenter-chartered-compliance-primer",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__recent-r2__carpenter-chartered-cosell-playbook-huify",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__recent-r2__carpenter-chartered-discovery-2026-05-05",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__recent-r2__carpenter-john-recommended-path",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__carpenter-chartered__carpenter-chartered-compliance-primerpdf-1sqatGzy",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__carpenter-chartered__carpenter-chartered-cosell-playbook-huify-1i2u0WA1",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__carpenter-chartered__carpenter-chartered-discovery-2026-05-05-1Z3dVB9H",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__leads-lower-funnel__carpenter-chartered-law-firm-1FQsilYo",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__gmail__threads__2026-05-06-carpenter-process-walkthrough",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__gmail__threads__2026-05-08-carpenterchartered-12-questions-vendor",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__gong__calls__2026-05-01-carpenter-hubspot-meeting",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__gong__calls__2026-05-05-carpenter-explore-process",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__gong__calls__2026-05-07-carpenter-direction-alignment",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108729904309-email-re-hubspot-carpenter-chartered",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108932318645-note-meeting-prep-carpenter-chartered-hubspot-cosell-sy",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109003395420-email-fw-hubspot-carpenter-chartered",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109015613877-note-meeting-prep-carpenter-chartered-2026-05-01-auto-g",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109024423317-email-re-fw-hubspot-carpenter-chartered",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109050833696-meeting-explore-carpenter-chartered-process-josh-huify",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109072505928-note-gong-zoom-explore-carpenter-chartered-process-josh",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109171244714-note-meeting-prep-carpenter-chartered-2026-05-05-auto-g",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109183173769-call-explore-carpenter-chartered-process-josh-huify",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109187727389-meeting-carpenter-h-ify-1-1-direction-sequence-alignment",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109187836995-note-gong-zoom-carpenter-h-ify-1-1-direction-sequence-a",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109278363149-note-meeting-prep-carpenter-chartered-2026-05-07-auto-g",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109293337775-call-carpenter-h-ify-1-1-direction-sequence-alignment",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__companies__54441647538-carpenter-chartered",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__contacts__217707413648-kenneth-m-carpenter",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__59654099549-carpenter-chartered-hubspot-implementation",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__60031100596-carpenter-chartered-new-deal",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__slack__topics__carpenter-chartered",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "work__carpenter-chartered-master-brief",
+    "target": "summaries__active__carpenter-chartered__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214535197699657-resolve-open-identity-questions-7th-client-marin-v",
+    "target": "summaries__active__marin-murphy__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__106274986574-call-call-with-matthew-marin",
+    "target": "summaries__active__marin-murphy__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__91166415971-call-call-with-matthew-marin",
+    "target": "summaries__active__marin-murphy__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__91552719233-call-call-with-matthew-marin",
+    "target": "summaries__active__marin-murphy__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__93626726056-call-call-with-matthew-marin",
+    "target": "summaries__active__marin-murphy__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__companies__39272247691-marin-barrett-and-murphy",
+    "target": "summaries__active__marin-murphy__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__contacts__13735089-marina-jones",
+    "target": "summaries__active__marin-murphy__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__contacts__208863969950-matthew-marin",
+    "target": "summaries__active__marin-murphy__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__45002294911-law-offices-of-matthew-t-marin-esq-inc-new-deal",
+    "target": "summaries__active__marin-murphy__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__slack__channels__marin-murphy-ext-2025-archive",
+    "target": "summaries__active__marin-murphy__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__slack__channels__marin-murphy-int-2025-archive",
+    "target": "summaries__active__marin-murphy__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214553382833849-mediafly-potential-services-deal-time-tracking",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214589052986903-mediafly-4-way-call-with-lee-ben-candace-josh",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214589053035613-mediafly-watch-for-bank-meeting-outcome-sale-proce",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214589248765827-mediafly-park-lee-personal-opportunity-at-h-ify",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214589248765891-mediafly-refine-deck-after-seeing-lee-s-doc",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214589279053376-mediafly-wait-for-lee-s-ai-strategy-doc-queue-ben",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__asana__tasks__1214589279096854-mediafly-pre-call-brief-for-ben-candace",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__mediafly__huify-skills-scheduled-tasks-analysis",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__mediafly__mediafly-lee-roquet-folder-root",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__mediafly__mediafly-sizzle-deck-huify",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__mediafly__mediafly-sizzle-deck",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__mediafly__hüify-skills-scheduled-tasks-analysis-1X2GXzbk",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__sales__mediafly__mediafly-sizzle-deck-huify-1jvBzugV",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__gmail__threads__2026-05-06-mediafly-plus-one-followup",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__gong__calls__2026-05-06-lee-roquet-mediafly-plus-one",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108569121048-note-meeting-prep-mediafly-2026-04-24-lee-roquet-josh-h",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__108650946825-note-post-call-summary-mediafly-2026-04-24-lee-roquet-j",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109015604310-note-meeting-prep-mediafly-2026-05-01-auto-generated-by",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109119913008-note-meeting-prep-mediafly-2026-05-04-auto-generated-by",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109228314920-note-meeting-prep-mediafly-2026-05-06-auto-generated-by",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__activities__109250965854-note-plus-one-subscription-quote-structure-mediafly-hub",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__companies__49302024227-mediafly",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__deals__54616184441-mediafly-potential-services",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__slack__topics__mediafly-lee-roquet",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "work__mediafly-plus-one-package",
+    "target": "summaries__active__mediafly__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients___root__casepacer-1aP71iDB",
+    "target": "extracted__drive__clients___root__52025-meeting-agenda-entreprenista-huify-13btax-n",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients___root__copy-of-process-improvement-interview-guide-audit-hansen-rosasco-1naNIKbH",
+    "target": "extracted__drive__clients___root__52025-meeting-agenda-entreprenista-huify-13btax-n",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients___root__ensight-tech-11jUnQBu",
+    "target": "extracted__drive__clients___root__52025-meeting-agenda-entreprenista-huify-13btax-n",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients___root__gme-spreadsheets-1djYQDJb",
+    "target": "extracted__drive__clients___root__52025-meeting-agenda-entreprenista-huify-13btax-n",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients___root__hansen-rosasco-llp-1IxgzFEJ",
+    "target": "extracted__drive__clients___root__52025-meeting-agenda-entreprenista-huify-13btax-n",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients___root__marin-murphy-mm-1oOmkwNU",
+    "target": "extracted__drive__clients___root__52025-meeting-agenda-entreprenista-huify-13btax-n",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients___root__mediafly-lee-roquet-1zBtiFEU",
+    "target": "extracted__drive__clients___root__52025-meeting-agenda-entreprenista-huify-13btax-n",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients___root__new-client-onboarding-resources-updated-2025-130eatlz",
+    "target": "extracted__drive__clients___root__52025-meeting-agenda-entreprenista-huify-13btax-n",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients___root__onboarding-workbook-online-accounts-entreprenista-1kvsCNU1",
+    "target": "extracted__drive__clients___root__52025-meeting-agenda-entreprenista-huify-13btax-n",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients___root__seda-law-firm-1xezjUR6",
+    "target": "extracted__drive__clients___root__52025-meeting-agenda-entreprenista-huify-13btax-n",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients___root__shared-demo-1P69gPtZ",
+    "target": "extracted__drive__clients___root__52025-meeting-agenda-entreprenista-huify-13btax-n",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients___root__students-closing-culture-huify-1zJ5tXi8",
+    "target": "extracted__drive__clients___root__52025-meeting-agenda-entreprenista-huify-13btax-n",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients___root__template-of-sales-client-closing-culture-1GPkpwtO",
+    "target": "extracted__drive__clients___root__52025-meeting-agenda-entreprenista-huify-13btax-n",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients___root__zb-admin-2025-1RFKNqT6",
+    "target": "extracted__drive__clients___root__52025-meeting-agenda-entreprenista-huify-13btax-n",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive__vendibean__exploratory-questionnaire",
+    "target": "extracted__drive__clients__archive__vendibean__connect-call-playbook-sales",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive__vendibean__sales-process-documentation-sop",
+    "target": "extracted__drive__clients__archive__vendibean__connect-call-playbook-sales",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive__vendibean__sales-process-hubspot-implementation-timeline",
+    "target": "extracted__drive__clients__archive__vendibean__connect-call-playbook-sales",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__abusix-archive-huify-0B5FSdnb",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__bronson-napoli-crm-optimization-1VuRuYeW",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__defy-trends-1KD4jE1C",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__evercast-1a2AOtwK",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__fuzzy-peach-0B5FSdnb",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__hubspot-4424-agenda-rrs-1j0OvwaF",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__icontrol-0Bz-ZoiH",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__loftware-0B9eN3C5",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__logicbay-0Bw-iEjT",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__mayanburners-1LkrJbVn",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__medisuite-1DY6egA0",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__michael-hyatt-mhco-11KVSvnv",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__new-frontier-funding-april-june-2024-project-1ClJNgjR",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__next-glass-0Bw-iEjT",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__notevault-0B5FSdnb",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__pandadoc-0ByRrLgb",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__pause-breathwork-1pGpNlIl",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__renu-management-0Bz-ZoiH",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__safelyyou-1M-d_BKC",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__self-publishing-school-sps-1khYuMeb",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__shiplion-14OKUgpl",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__smc-national-13CGVPym",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__softbank-robotics-america-sbra-1SaRsWbn",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__softbank-robotics-uk-sbr-emea-1i9iMpl0",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__sweet-fish-media-agency-1ARZGrkU",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__trackableio-cro-hüify-1fXRBUXK",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__twisted-wares-13Mb16QM",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__updated-2024-fto-process-outline-rrs-17SAtvVN",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__archive-old-clients__vendibean-1Bm1gqvM",
+    "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__blg__blg-content-strategy-roadmap-docx",
+    "target": "summaries__active__blg__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__blg__blg-content-strategy-roadmap",
+    "target": "summaries__active__blg__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__blg__blg-form-submissions",
+    "target": "summaries__active__blg__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__blg__blg-partnerstack-database",
+    "target": "summaries__active__blg__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__blg__blg-website-blueprint",
+    "target": "summaries__active__blg__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__blg__blg_content_strategy_roadmap-1z3ZeRub",
+    "target": "summaries__active__blg__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__blg__blg_content_strategy_roadmapdocx-1NhBJgS3",
+    "target": "summaries__active__blg__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__blg__blg_partnerstack_database-1iu-av4x",
+    "target": "summaries__active__blg__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__blg__blg_website_blueprint-1Zv1nS8P",
+    "target": "summaries__active__blg__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__blg__blgcom-form-submissions-leads-1hYxut5q",
+    "target": "summaries__active__blg__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__blg__casepacer-hubspot-negotiation-blg-10XSIFsR",
+    "target": "summaries__active__blg__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__blg__casepacer-hubspot-negotiation",
+    "target": "summaries__active__blg__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__blg__hubspot-negotiation-model-v2",
+    "target": "summaries__active__blg__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__blg__hubspot_negotiation_model_v2xlsx-1LKkTv_Y",
+    "target": "summaries__active__blg__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__other__top-level__bill-lowering-guys-blg-1ngBuW9B",
+    "target": "summaries__active__blg__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__carpenter-chartered__carpenter-compliance-primer",
+    "target": "extracted__drive__clients__carpenter-chartered__carpenter-chartered-discovery-2026-05-05",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__carpenter-chartered__carpenter-cosell-playbook",
+    "target": "extracted__drive__clients__carpenter-chartered__carpenter-chartered-discovery-2026-05-05",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__ensight-tech__ensight-technologies-huify-folder",
+    "target": "extracted__drive__clients__ensight-tech__ensight-tech-2026-folder",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__ensight-tech__ensight-technology-folder-root",
+    "target": "extracted__drive__clients__ensight-tech__ensight-tech-2026-folder",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__ensight-tech__huify-services-summary-ensight-technologies",
+    "target": "extracted__drive__clients__ensight-tech__ensight-tech-2026-folder",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__ensight-tech__huify-services-summary",
+    "target": "extracted__drive__clients__ensight-tech__ensight-tech-2026-folder",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__ensight-tech__negotiation-impact-report",
+    "target": "extracted__drive__clients__ensight-tech__ensight-tech-2026-folder",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__ensight-tech__online-accounts",
+    "target": "extracted__drive__clients__ensight-tech__ensight-tech-2026-folder",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__gme-supply__gme-advanced-reporting-data-foundation",
+    "target": "extracted__drive__clients__gme-supply__2026-hubspot-renewal-strategy",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__gme-supply__gme-engagement-agreement-final",
+    "target": "extracted__drive__clients__gme-supply__2026-hubspot-renewal-strategy",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__gme-supply__gme-meeting-flow-feb18",
+    "target": "extracted__drive__clients__gme-supply__2026-hubspot-renewal-strategy",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__gme-supply__gme-supply-hubspot-upgrade-folder-root",
+    "target": "extracted__drive__clients__gme-supply__2026-hubspot-renewal-strategy",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__gme-supply__john-g-call-flow-feb19",
+    "target": "extracted__drive__clients__gme-supply__2026-hubspot-renewal-strategy",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__gme-supply__john-gossett-prep-exploratory",
+    "target": "extracted__drive__clients__gme-supply__2026-hubspot-renewal-strategy",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__gme-supply__meeting-transcripts-gme-supply",
+    "target": "extracted__drive__clients__gme-supply__2026-hubspot-renewal-strategy",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__2026-cfocro-planning-phase-3-hr-1STMvCYR",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__agreements__exploratory-questionnaire",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__agreements__intake-department-overhaul-proposal",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__agreements__law-firm-revops-ai-intake-audit-framework",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__agreements-hr-huify-1f4hdiWA",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__audit-insights__9-11-vcf-client-friendly-intake-workflow",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__audit-insights__911-vcf-client-friendly-intake-workflow",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__audit-insights__audit-notepad-hr",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__audit-insights__audit-notepad",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__audit-insights__case-dates-and-ages-custom-report",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__audit-insights__process-improvement-interview-guide",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__audit-insights__tasks-report-2025-05-12-phi-hansen-rosasco",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__audit-insights__vcf-awards",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__audit-insights__wd-aging-report-custom-report-2025-05-09",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__audit-insights-research-and-data-hansen-rosasco-llp-1J4vYlzf",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__award-payment-packets-1Dah5INV",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__case-management-finalized-processes-hansen-rosasco-1YML6CKp",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__case-mgmt-finalized__claims-process-hubspot-report-planning-full-cycle",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__case-mgmt-finalized__claims-process-hubspot-report-planning",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__case-mgmt-finalized__missing-information-vcf-sop",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-driven-prompts-for-personal-injury-law-firms-hr-1Xd09U6S",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-driven-prompts-personal-injury-firms",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-driven-prompts-pi-firms",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__all-data-data-dump-hr-1mUdB3Yj",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__association-labels-in-hubspot-1ZlY378_",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__case-manager-operations-manual-operations-hr-10Q9hTI5",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__case-manager-weekly-metrics-hr-1GQ8L-JN",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__complete-list-of-selectable-injuries-and-conditions-1qc3ADCY",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__corrected-phone-numbers-for-contacts-1eQj_gy-",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__dan-hansens-technical-compliance-questions-about-hubspotpdf-1l0Uw8Et",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__document-templates-and-createupdated-dates-lawruler-1krO-c86",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__hr-intake-operations-manual-draft-pdfpdf-1w-3mtT4",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__hr-intake-operations-manual-screenshotpng-15hEF_Nr",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__injuries-and-conditions-all-tags-hr-1AKsFor9",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__intake-1OenWfIN",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__lawruler-data-export-custom-report-2025-05-30-1YD41zAa",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__lorenas-feedback-huify-mail-intake-status-hrpdf-1mNzzA3t",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__m-wein-award-packetpdf-1szKMGWz",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__m-wien-lclpdf-1zBP84Am",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__mapping-for-workflow-automation-data-clean-up-contacts-to-claims-1R3awsAg",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__mil-letter-examples-from-vcf-case-management-hr-196a96P8",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__mwien-ccqpdf-1sEQz2TO",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__nyc-outreach-weekly-metrics-instructionspdf-1YhCFfW_",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__nyc-outreach-weekly-metricspdf-1y4FGPdD",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__team-lawrulermanual-reports-weekly-file-dump-1QYTNvOI",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__team-spreadsheets-data-dump-hr-1VmubBpI",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__vcf-info-lost-earnings-witness-etc-case-management-hr-1Xpkp5kY",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__wd-guide-template-02262024pdf-1nw833hU",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__weekly-mailed-received-intakes-2xlsx-1CNlQFhM",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__wrongful-death-wd-hr-1DZfMi3W",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__wtchpppcertphysdetfinal20feb2015-508-1pdf-1adiptbv",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-dump__z-2025-existing-decd-1ZYyeXah",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-file-dump-hansen-rosasco-llp-huify-1AR1JuW4",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-model__custom-contact-properties-non-hubspot-hansen-rosasco",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-model__intake-crm-objects-properties-hansen-rosasco",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-model__intake-data-model-scratchpad",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-model__lawruler-to-hubspot-stage-mapping",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-model__master-mapping-lawruler-hubspot-hr-june-17",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-model__milestone-status-lawruler-to-claim-stage-mapping",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-model__playbook-1-911-vcf-wtchp-initial-intake",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-model__playbook-1a-1b-pi-wd-intake",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-model__records-import-explained",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__data-model-crm-hansen-rosasco-1Zvizg8o",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__estate-templates__appointment-letter-030223",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__estate-templates__appointment-letter-template-030223-v2",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__estate-templates__estate-templates-stubs",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__estate-templates__nys-distrib-calc-ltr-complete-9-30-25",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__estate-templates__nys-distribution-calculation-letter-template-05122025",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__estate-templates-judy-1u1vWbMs",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__folder-organization-structure-admin-hansen-rosasco-1dd-yHEm",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__folder-organization-structure-admin-hansen-rosasco",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__folder-organization-structure",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__hansen-rosasco-incomplete-timeline-1Vylu-3T",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__howtouseourrestapi-copydocdocx-1UBASmB8",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__hr-client-overview-1X1uXDd4",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__hr-client-overview",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__hr-hubspot-workflow-enhancements-1cpbhrLT",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__hr-organizational-chart-2025",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__hr-organizational-chart-2025pdf-10X64Goh",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__hubspot-intake-system-task-import-spreadsheet-1dMQ8vYY",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__hubspot-playbook-for-intake-process-detailed-writup-hansen-rosasco-huify-1sgMlOJ1",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__intake-blitz-hubspot-onboarding-launch-hansen-rosasco-14lxsMWB",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__intake-blitz-hubspot-onboarding-launch",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__intake-blitz-hubspot-onboarding",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__intake-call-playbook-wtchp-911-vcf-10-20-minutes-hubspot-focused-1Co3CF4D",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__intake-call-playbook-wtchp-vcf",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__intake-finalized__playbook-wtchp-911vcf-intake-call",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__intake-finalized-processes-hansen-rosasco-1vFYxlow",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__intake-quota-sop-nov-2025-hr-1GN3U_Wn",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__intake-quota-sop-nov-2025",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__intake-quota-sop",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__kickoff-agenda-hansen-rosasco-llp-1XVZmmMd",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__lawruler-data-export-2025-7-20-big-boy-1BePR28s",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__lawruler-to-hubspot-action-plan",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__lawruler-to-hubspot-migration-action-plan-11xegaBj",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__lawruler-to-hubspot-migration-action-plan",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__lawruler-to-hubspot-migration-plan",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__lcl-payments-vcf-1FPZcwKP",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__marketing__lawruler-lead-sources-analysis-report-marketing-hr",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__marketing-hansen-rosasco-1L4DvpQI",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__call-transcript-firm-business-metrics-leadership",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__call-transcript-hansen-rosasco-llp-samantha-stone",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__call-transcript-hansen-rosasco-llp-shannon-quinn",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__call-transcript-review-the-plan-hr",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__call-with-hansen-rosasco-daniel-hansen",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__christine-riley-josh-operations-audit",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__connect-call-transcript-apr28",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__emily-young-josh-operations-audit",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__josephine-ruby-josh-operations-audit",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__kickoff-agenda-hr",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__leadership-meeting-with-dan",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__lorena-slocum-josh-operations-audit",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__may-16-sam-josh-deep-dive",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__may-16-shannon-quinn-josh-hr-operations-audit",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__may-20-shannon-josh-hr",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__may-21-sam-josh-intake-process-mapping",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__may-22-call-transcript-intake-process-part-2-sam-josh",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__may-23-call-transcript-intake-comms-process-hr",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__may-27-call-transcript-launch-plan-hr",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__meetings-index",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__migration-alis-timeline-and-scope",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings__onboarding-kickoff-hansen-rosasco-llp",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__meetings-hansen-rosasco-1b8ZOh2H",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__migration-alis-timeline-and-scope-1U8HwsSv",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__migration-alis-timeline-scope",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__non-branded-nspr-overview-final-training-2-days-law-firm-huify-1LUxAIo9",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__non-branded-nspr-overview-final-training-law-firm-huify",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__pandadoc-hackathon-slide-deck-1FG5u13v",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__project-alignment-plan-lawruler-hubspot",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__project-alignment-plan-lawruler-to-hubspot-migration-draidel-huify-17wWDhPK",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__reporting__2025-marketing-roi-hr",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__reporting__2025-marketing-roi",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__reporting-hansen-rosasco-105bZVYT",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__salesforce-_-hansen-rosasco-demo-2025_04_16-13_00-cdt-recordingmp4-10KEdZ3C",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__tab-1762892926173webm-12ZzOf8I",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__timeline-examples-1g_DwzsP",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__updated-hr-logos-1tW6XDu6",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__user-related-documents-admin-hansen-rosasco-1VuMaCdx",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__wtc-team-templates-1rlGEECV",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__wtc-templates__wtchp-npn-timeline",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__hansen-rosasco__wtc-templates__wtchp-responder-timeline",
+    "target": "extracted__drive__clients__hansen-rosasco__2026-case-os-framework-1WRWMK0i",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__marin-murphy__kickoff-meeting-agenda-hubspot-onboarding-mbm-huify-1peIuYHx",
+    "target": "extracted__drive__clients__marin-murphy___folder",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__marin-murphy__kickoff-meeting-agenda",
+    "target": "extracted__drive__clients__marin-murphy___folder",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__marin-murphy__meeting-prep-mycase-intake-2026-03-12",
+    "target": "extracted__drive__clients__marin-murphy___folder",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__marin-murphy__meeting-prep-mycase-intake-mm-march-12-1MOnmcOJ",
+    "target": "extracted__drive__clients__marin-murphy___folder",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__clients__marin-murphy__online-accounts-mm-firm-1szl7_6u",
+    "target": "extracted__drive__clients__marin-murphy___folder",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__other__tortscale__fid-data-model-labels-nspr-tortscale-1cHl3gMG",
+    "target": "summaries__archive__nspr-law__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__drive__recent__bronsonhuify-intake-process-improvement-kick-off-1J663waM",
+    "target": "summaries__archive__bronson-ai__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__contacts__100491376231-chrisbronsoncom",
+    "target": "summaries__archive__bronson-ai__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__contacts__99538031917-joshbronsonhuifycom",
+    "target": "summaries__archive__bronson-ai__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__companies__23108061615-napoli-shkolnik-pllc",
+    "target": "summaries__archive__napoli-shkolnik__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__contacts__65688479524-paul-napoli",
+    "target": "summaries__archive__napoli-shkolnik__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__slack__channels__project-clp-napoli-2024-2025-archive",
+    "target": "summaries__archive__napoli-shkolnik__CLIENT-SUMMARY",
+    "relationship_type": "belongs to client",
+    "weight": 1
+  },
+  {
+    "source": "extracted__hubspot__contacts__116683665696-dan-hansen",
+    "target": "extracted__hubspot__companies__32451263031-hansen-rosasco-llp",
+    "relationship_type": "works at",
+    "weight": 2
+  },
+  {
+    "source": "extracted__hubspot__contacts__13735089-marina-jones",
+    "target": "extracted__hubspot__companies__39272247691-marin-barrett-and-murphy",
+    "relationship_type": "works at",
+    "weight": 2
+  },
+  {
+    "source": "extracted__hubspot__contacts__177399382660-roberto-seda",
+    "target": "extracted__hubspot__companies__45069409867-seda-law-firm",
+    "relationship_type": "works at",
+    "weight": 2
+  },
+  {
+    "source": "extracted__hubspot__contacts__208863969950-matthew-marin",
+    "target": "extracted__hubspot__companies__39272247691-marin-barrett-and-murphy",
+    "relationship_type": "works at",
+    "weight": 2
+  },
+  {
+    "source": "extracted__hubspot__contacts__217707413648-kenneth-m-carpenter",
+    "target": "extracted__hubspot__companies__54441647538-carpenter-chartered",
+    "relationship_type": "works at",
+    "weight": 2
+  },
+  {
+    "source": "extracted__hubspot__contacts__2259239-hansen-hunt",
+    "target": "extracted__hubspot__companies__32451263031-hansen-rosasco-llp",
+    "relationship_type": "works at",
+    "weight": 2
+  },
+  {
+    "source": "extracted__hubspot__contacts__65688479524-paul-napoli",
+    "target": "extracted__hubspot__companies__23108061615-napoli-shkolnik-pllc",
+    "relationship_type": "works at",
+    "weight": 2
+  },
+  {
+    "source": "extracted__hubspot__deals__35901000990-ensight-technologies-operational-efficiency",
+    "target": "extracted__hubspot__companies__20960961036-ensight-technologies",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__36292465222-hansen-rosasco-llp-sales-enterprise-ent-bundle",
+    "target": "extracted__hubspot__companies__32451263031-hansen-rosasco-llp",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__37704999481-hansen-rosasco-llp-intake-and-beyond",
+    "target": "extracted__hubspot__companies__32451263031-hansen-rosasco-llp",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__45002294911-law-offices-of-matthew-t-marin-esq-inc-new-deal",
+    "target": "extracted__hubspot__companies__39272247691-marin-barrett-and-murphy",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__47453868362-casepacer-hubspot-upgrade-pro-platform",
+    "target": "extracted__hubspot__companies__43010771251-casepacer",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__49700744565-seda-law-intake-hubspot-1-month",
+    "target": "extracted__hubspot__companies__45069409867-seda-law-firm",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__54616184441-mediafly-potential-services",
+    "target": "extracted__hubspot__companies__49302024227-mediafly",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__54956810271-ensight-tech-upgrade",
+    "target": "extracted__hubspot__companies__20960961036-ensight-technologies",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__55475450675-ensight-marketing-services",
+    "target": "extracted__hubspot__companies__20960961036-ensight-technologies",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__55475655093-team-1-academy-gme-supply-new-portal",
+    "target": "extracted__hubspot__companies__51690647884-gme-supply",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__56135918639-casepacer-crm-kickstart-2wks",
+    "target": "extracted__hubspot__companies__43010771251-casepacer",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__56545089192-rcc-gme-supply-feb26",
+    "target": "extracted__hubspot__companies__51690647884-gme-supply",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__56646752110-gme-supply-phase-1-services",
+    "target": "extracted__hubspot__companies__51690647884-gme-supply",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__58479540595-gme-supply-data-cleanup-dedup",
+    "target": "extracted__hubspot__companies__51690647884-gme-supply",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__59566439863-ensight-technologies-phil-s-revops-project",
+    "target": "extracted__hubspot__companies__20960961036-ensight-technologies",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__59654099549-carpenter-chartered-hubspot-implementation",
+    "target": "extracted__hubspot__companies__54441647538-carpenter-chartered",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__59943838045-911cancerclaim-com-sms-segment",
+    "target": "extracted__hubspot__companies__51690647884-gme-supply",
+    "relationship_type": "sold to",
+    "weight": 3
+  },
+  {
+    "source": "extracted__hubspot__deals__60031100596-carpenter-chartered-new-deal",
+    "target": "extracted__hubspot__companies__54441647538-carpenter-chartered",
+    "relationship_type": "sold to",
+    "weight": 3
+  }
 ]
