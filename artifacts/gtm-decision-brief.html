@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hüify GTM — The audit is the wedge</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F2EBDD;
+    --ink: #1F1B16;
+    --muted: #7A6F5E;
+    --rust: #C2542B;
+    --rust-soft: #B85B30;
+    --olive: #6B7B3A;
+    --rule: rgba(31, 27, 22, 0.18);
+    --panel: #EAE2D0;
+    --serif: 'Newsreader', 'Charter', 'PT Serif', Georgia, serif;
+    --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--serif);
+    font-feature-settings: "kern", "liga", "onum";
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    padding: 56px 40px 120px;
+    background-image:
+      radial-gradient(rgba(31,27,22,0.025) 1px, transparent 1.2px),
+      radial-gradient(rgba(31,27,22,0.025) 1px, transparent 1.2px);
+    background-size: 6px 6px, 11px 11px;
+    background-position: 0 0, 3px 4px;
+  }
+  .page {
+    max-width: 880px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--rust);
+    margin-bottom: 28px;
+  }
+  .header-row {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    gap: 40px;
+    align-items: start;
+    margin-bottom: 28px;
+  }
+  h1.title {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.04;
+    letter-spacing: -0.015em;
+    margin: 0;
+  }
+  h1.title em {
+    font-style: italic;
+    color: var(--rust);
+    font-weight: 400;
+  }
+  .meta {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    line-height: 1.7;
+    color: var(--ink);
+    text-align: right;
+    padding-top: 18px;
+  }
+  .meta .key { color: var(--muted); }
+  hr.rule {
+    border: 0;
+    border-top: 1px solid var(--rule);
+    margin: 24px 0 64px;
+  }
+  section {
+    margin-bottom: 88px;
+  }
+  .sec-eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--rust);
+    margin-bottom: 22px;
+  }
+  h2 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.18;
+    letter-spacing: -0.01em;
+    margin: 0 0 24px;
+    max-width: 720px;
+  }
+  h2 em {
+    font-style: italic;
+    color: var(--ink);
+    opacity: 0.78;
+  }
+  .lede {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 19px;
+    line-height: 1.55;
+    color: var(--ink);
+    max-width: 620px;
+    margin: 0 0 28px;
+    opacity: 0.92;
+  }
+  p {
+    font-size: 17px;
+    line-height: 1.65;
+    margin: 0 0 18px;
+    max-width: 680px;
+  }
+  p strong { font-weight: 600; }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    padding: 36px 44px 30px;
+    margin: 28px 0 32px;
+  }
+  .panel-caption {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 15px;
+    color: var(--ink);
+    opacity: 0.78;
+    margin-top: 22px;
+    padding-top: 18px;
+    border-top: 1px solid var(--rule);
+  }
+  .bars {
+    display: grid;
+    grid-template-columns: 200px 1fr 60px;
+    gap: 18px 16px;
+    align-items: center;
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+  }
+  .bar-label { text-align: right; line-height: 1.4; }
+  .bar-track { height: 26px; position: relative; }
+  .bar-fill {
+    height: 100%;
+    display: block;
+  }
+  .bar-fill.dark { background: var(--ink); }
+  .bar-fill.rust { background: var(--rust); }
+  .bar-fill.olive { background: var(--olive); }
+  .bar-note { font-size: 11px; color: var(--ink); opacity: 0.75; }
+  table.ledger {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0 12px;
+    font-family: var(--serif);
+    font-size: 16px;
+  }
+  table.ledger th, table.ledger td {
+    text-align: left;
+    padding: 12px 14px 12px 0;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  table.ledger th {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--rust);
+    font-weight: 500;
+    padding-bottom: 12px;
+  }
+  table.ledger td.num {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--ink);
+  }
+  .pull {
+    font-family: var(--serif);
+    font-size: 26px;
+    line-height: 1.3;
+    font-style: italic;
+    color: var(--ink);
+    border-left: 2px solid var(--rust);
+    padding: 6px 0 6px 22px;
+    margin: 28px 0;
+    max-width: 640px;
+  }
+  .footer {
+    margin-top: 100px;
+    padding-top: 28px;
+    border-top: 1px solid var(--rule);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+    line-height: 1.7;
+  }
+  .footer .col-title {
+    color: var(--rust);
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    margin-bottom: 8px;
+  }
+  .footer ul { list-style: none; padding: 0; margin: 0; }
+  .footer li { margin-bottom: 4px; }
+  .small-caps {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--rust);
+  }
+  @media (max-width: 720px) {
+    body { padding: 32px 22px 80px; }
+    h1.title { font-size: 40px; }
+    h2 { font-size: 26px; }
+    .lede { font-size: 17px; }
+    p { font-size: 16px; }
+    .header-row { grid-template-columns: 1fr; }
+    .meta { text-align: left; padding-top: 0; }
+    .bars { grid-template-columns: 130px 1fr 48px; gap: 12px 10px; }
+    .panel { padding: 22px 22px 18px; }
+    .footer { grid-template-columns: 1fr; gap: 24px; }
+  }
+</style>
+</head>
+<body>
+<main class="page">
+
+  <div class="eyebrow">Internal Decision Brief / Hüify GTM 2026</div>
+
+  <div class="header-row">
+    <h1 class="title">The audit is the <em>wedge,</em><br>not the prize.</h1>
+    <div class="meta">
+      <div><span class="key">Status:</span> Working draft</div>
+      <div><span class="key">For:</span> Ben, Josh</div>
+      <div><span class="key">Re:</span> PI vertical GTM</div>
+      <div><span class="key">Rev:</span> 2026.05.08</div>
+    </div>
+  </div>
+
+  <hr class="rule">
+
+  <section>
+    <div class="sec-eyebrow">01 / Funnel Compression</div>
+    <h2>Traditional consulting sells in 90 days. <em>Ours sells in 14.</em></h2>
+    <p class="lede">If the audit replaces the discovery call, and the deliverable replaces the proposal, the only thing left to sell is the next phase. The lawyer never decides on consulting. They decide on Phase 1, which is already paid for through the audit credit.</p>
+
+    <div class="panel">
+      <div class="bars">
+        <div class="bar-label">Traditional<br>consulting sale</div>
+        <div class="bar-track"><span class="bar-fill dark" style="width: 100%"></span></div>
+        <div class="bar-note">~ 90 days</div>
+
+        <div class="bar-label">Hüify outbound<br>+ proposal</div>
+        <div class="bar-track"><span class="bar-fill rust" style="width: 50%"></span></div>
+        <div class="bar-note">~ 45 days</div>
+
+        <div class="bar-label">Hüify<br>audit-led</div>
+        <div class="bar-track"><span class="bar-fill olive" style="width: 16%"></span></div>
+        <div class="bar-note">~ 14 days</div>
+      </div>
+      <div class="panel-caption">Compression isn't the strategy. It's the byproduct of selling artifacts instead of opinions.</div>
+    </div>
+
+    <p>Every unpaid hour a consulting firm spends on discovery, scoping, or proposal-writing gets baked into the price the next client pays. The audit-led model collapses that spend onto the prospect's invoice from day one. <strong>The audit is paid work. It is also the sales conversation.</strong> Both at once.</p>
+  </section>
+
+  <section>
+    <div class="sec-eyebrow">02 / Who Pays</div>
+    <h2>Generic "law firms" don't buy operations work. <em>High-volume contingency PI firms do.</em></h2>
+    <p class="lede">The economic model that makes a $15K diagnostic feel cheap is contingency revenue running against $1M+ in annual marketing spend.</p>
+
+    <div class="panel">
+      <div class="bars">
+        <div class="bar-label">Marketing<br>+ intake</div>
+        <div class="bar-track"><span class="bar-fill rust" style="width: 50%"></span></div>
+        <div class="bar-note">~ 50%</div>
+
+        <div class="bar-label">Case<br>processing</div>
+        <div class="bar-track"><span class="bar-fill dark" style="width: 33%"></span></div>
+        <div class="bar-note">~ 33%</div>
+
+        <div class="bar-label">Overhead</div>
+        <div class="bar-track"><span class="bar-fill olive" style="width: 17%"></span></div>
+        <div class="bar-note">~ 17%</div>
+      </div>
+      <div class="panel-caption">High-volume PI firms run on these proportions. Half the cost is acquiring a retained client. A third is processing the case. The rest is rent.</div>
+    </div>
+
+    <p>The buyer is not "lawyers." It's the managing partner of a firm spending real money on TV, paid search, paid social, and referrals, with no defensible answer to "what's our CAC by channel?" That partner is exposed in two places: marketing waste they can't measure, and case duration that compounds attorney cost. Both are leaks. Both are quantifiable. Both are recoverable.</p>
+
+    <table class="ledger">
+      <thead>
+        <tr><th>Disqualifier</th><th>Why we walk</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Hourly billing firms (corporate, M&A)</td><td class="num">Wrong economic model</td></tr>
+        <tr><td>Boutique under 10 attorneys</td><td class="num">Insufficient scale for our leverage</td></tr>
+        <tr><td>Big-law 200+ attorneys</td><td class="num">Internal ops teams already</td></tr>
+        <tr><td>Firms under $500K marketing spend</td><td class="num">Leakage we'd find isn't material</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <div class="sec-eyebrow">03 / The Offer</div>
+    <h2>$15K diagnostic. 100% credit. <em>No proposal.</em></h2>
+    <p class="lede">The audit is the proposal. The credit is the bridge. The lawyer never has to "decide on consulting" — only whether to proceed to Phase 1, which their own audit money already paid for.</p>
+
+    <div class="pull">"Worst case I pay $15K and get a great report. Best case I pay $15K and effectively pre-paid for $25K of work I was going to do anyway."</div>
+
+    <p>The credit mechanic does three things at once. It removes commitment friction. It justifies a higher diagnostic price than a discovery-priced product would carry. And it mirrors how lawyers already think about money — pay for the work, the work pays for itself.</p>
+
+    <table class="ledger">
+      <thead>
+        <tr><th>Phase</th><th>Price</th><th>Duration</th><th>Deliverable</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Diagnostic</td>
+          <td class="num">$15,000</td>
+          <td class="num">14 days</td>
+          <td>Personalized leakage report + Phase 1 roadmap. 100% credit if Phase 1 starts within 30 days. 110% if within 14.</td>
+        </tr>
+        <tr>
+          <td>Phase 1</td>
+          <td class="num">$25,000</td>
+          <td class="num">60 days</td>
+          <td>Marketing attribution + intake redesign</td>
+        </tr>
+        <tr>
+          <td>Phase 2</td>
+          <td class="num">$50,000</td>
+          <td class="num">90 days</td>
+          <td>Case management optimization</td>
+        </tr>
+        <tr>
+          <td>Retainer</td>
+          <td class="num">$13–20K / mo</td>
+          <td class="num">Optional</td>
+          <td>Only after Phases 1 + 2 prove out</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <div class="sec-eyebrow">04 / The Engine</div>
+    <h2>Forge isn't memory. <em>It's the funnel engine.</em></h2>
+    <p class="lede">Every prospect interaction flows in. Every asset is assembled from the brain. Every funnel stage is observable. The brain is the operational layer, not the archive.</p>
+
+    <p>At each funnel stage, Forge does specific work. <strong>Content magnet:</strong> the brain assembles essays, podcast scripts, and video outlines from existing nodes; the Council pre-reviews voice and facts before publish. <strong>Diagnostic:</strong> auto-routes prospect signals into pre-qualified intake. <strong>The audit:</strong> assembles the deliverable from inputs, benchmarks, and Hansen patterns, then routes through Council. <strong>Retainer:</strong> assembles Phase 1 scope from audit findings.</p>
+
+    <div class="pull">The Council pattern is load-bearing for "no sales calls." Without it, agents shipping prospect comms is too risky. With it, the founder becomes a reviewer of pre-vetted artifacts — not an author of every word.</div>
+
+    <p>The forcing function for the agent layer is brain extraction maturity. The threshold: 70% extraction, 80% tagging, 60% enrichment answered. Until then, agents drafting prospect comms is dangerous. After that, the brain is a leveraged version of the founder. That maturity arc is the timeline to "no sales calls" — not a target date.</p>
+  </section>
+
+  <section>
+    <div class="sec-eyebrow">05 / The Year Ahead</div>
+    <h2>Today the founder ships everything. <em>In twelve months, the brain ships first drafts.</em></h2>
+    <p class="lede">The arc isn't speed of revenue. It's compounding leverage. Each prospect interaction becomes a new node. Each shipped asset compounds the next.</p>
+
+    <table class="ledger">
+      <thead>
+        <tr><th>Horizon</th><th>State</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Today</td><td>Founder writes assets, delivers audits, approves every output. Brain compounds in the background.</td></tr>
+        <tr><td>Six months</td><td>Forge agents draft assets from brain context. Council pre-reviews voice + facts + risk. Founder approves single-card review.</td></tr>
+        <tr><td>Twelve months</td><td>Most prospect interactions never need founder hands. Brain-to-action loop closes. Hüify scales without the founder as bottleneck.</td></tr>
+      </tbody>
+    </table>
+
+    <p>The headline metric we'd display in the cockpit is <strong>agent-approval rate</strong> — the percentage of agent-proposed actions the founder approves without edits. When that climbs, the brain is becoming complete. When it stalls, it surfaces a gap to enrich.</p>
+  </section>
+
+  <section>
+    <div class="sec-eyebrow">06 / What We're Asking</div>
+    <h2>Three reads from Ben before we ship.</h2>
+
+    <table class="ledger">
+      <thead>
+        <tr><th>#</th><th>Decision</th><th>Why now</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="num">01</td>
+          <td>Carpenter as the audit-with-credit pilot</td>
+          <td>If yes, we structure the engagement around the credit mechanic and Hansen pattern. If no, we save Carpenter for a different motion.</td>
+        </tr>
+        <tr>
+          <td class="num">02</td>
+          <td>Forge call-analysis automation maturity</td>
+          <td>Determines whether the $1,497 Intake X-ray tripwire is buildable in 7 days or is a 4-week build.</td>
+        </tr>
+        <tr>
+          <td class="num">03</td>
+          <td>Document AI for H&R timeline confidence</td>
+          <td>The two roadmaps converge by Q3. June 1 ship is the gating event. Confirm we're still on track.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <div class="footer">
+    <div>
+      <div class="col-title">Source documents</div>
+      <ul>
+        <li>gtm-v3-master-2026-05-08.md</li>
+        <li>icp-high-volume-pi-2026-05-08.md</li>
+        <li>forge-redesign-priorities-2026-05-08.md</li>
+        <li>forge-llm-council-pattern-2026-05-08.md</li>
+      </ul>
+    </div>
+    <div>
+      <div class="col-title">Related decisions</div>
+      <ul>
+        <li>forge-architecture-direction-2026-05-07.md</li>
+        <li>forge-agent-ecosystem-vision-2026-05-07.md</li>
+        <li>karpathy-recent-repos-applied-to-forge-2026-05-08.md</li>
+        <li>claude-design-getting-started-2026-05-08.md</li>
+      </ul>
+    </div>
+  </div>
+
+</main>
+</body>
+</html>
