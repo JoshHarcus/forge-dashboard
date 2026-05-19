@@ -2094,7 +2094,7 @@
     "weight": 1
   },
   {
-    "source": "extracted__drive__sales__mediafly__hüify-skills-scheduled-tasks-analysis-1X2GXzbk",
+    "source": "extracted__drive__sales__mediafly__h\u00fcify-skills-scheduled-tasks-analysis-1X2GXzbk",
     "target": "summaries__active__mediafly__CLIENT-SUMMARY",
     "relationship_type": "belongs to client",
     "weight": 1
@@ -2430,7 +2430,7 @@
     "weight": 1
   },
   {
-    "source": "extracted__drive__clients__archive-old-clients__trackableio-cro-hüify-1fXRBUXK",
+    "source": "extracted__drive__clients__archive-old-clients__trackableio-cro-h\u00fcify-1fXRBUXK",
     "target": "extracted__drive__clients__archive-old-clients__100-coaches-1vwY88wn",
     "relationship_type": "belongs to client",
     "weight": 1
@@ -3706,5 +3706,3629 @@
     "target": "extracted__hubspot__companies__54441647538-carpenter-chartered",
     "relationship_type": "sold to",
     "weight": 3
+  },
+  {
+    "source": "2026-case-os-framework",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "2026-case-os-framework",
+    "target": "carpenter-chartered-cosell-playbook",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "2026-case-os-framework",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "2026-case-os-framework",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "2026-case-os-framework",
+    "target": "petroff-amshen-strategic-scoping-managing-partners",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "2026-case-os-framework",
+    "target": "seda-law-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "2026-case-os-framework",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "2026-case-os-framework",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "2026-case-os-framework",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "2026-case-os-framework",
+    "target": "case-velocity-formula",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "2026-case-os-framework",
+    "target": "legacy-crm-trap-frame",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "2026-case-os-framework",
+    "target": "looking-backward-vs-forward-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "2026-case-os-framework",
+    "target": "customer-voice-anchor-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "2026-case-os-framework",
+    "target": "discussion-prompts-in-framework-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "2026-case-os-framework",
+    "target": "1-week-audit-1-month-diagnostic-menu",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "forge-extraction-methodology",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "forge-extraction-methodology",
+    "target": "wedge-dont-dilute-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "forge-extraction-methodology",
+    "target": "advisor-frame-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "forge-extraction-methodology",
+    "target": "case-velocity-formula",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "forge-extraction-methodology",
+    "target": "id-slug",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "forge-extraction-methodology",
+    "target": "forge-extraction-state",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "forge-extraction-methodology",
+    "target": "forge-extraction-session-log",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "forge-extraction-methodology",
+    "target": "node-per-file-within-cluster-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "forge-extraction-methodology",
+    "target": "wikilink-discipline-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "forge-extraction-methodology",
+    "target": "frontmatter-contract",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "forge-extraction-methodology",
+    "target": "quality-gates-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "ai-in-hr-today-skeleton",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "ai-in-hr-today-skeleton",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "ai-in-hr-today-skeleton",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-decision-summary",
+    "target": "blue-fox-trading-implementation-blueprint",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-decision-summary",
+    "target": "blue-fox-trading-sprint-sow",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-decision-summary",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-decision-summary",
+    "target": "seda-law-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-decision-summary",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-decision-summary",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-decision-summary",
+    "target": "blue-fox-trading-intro-call-zach",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-decision-summary",
+    "target": "hbl-crm-implementation-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-decision-summary",
+    "target": "activation-link-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-decision-summary",
+    "target": "what-you-are-not-committing-to-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-decision-summary",
+    "target": "disciplined-upsell-deferral",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-decision-summary",
+    "target": "hubspot-onboarding-waiver-timing",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-decision-summary",
+    "target": "99-percent-cheaper-comparison",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-decision-summary",
+    "target": "three-things-asked-in-order",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "blue-fox-trading-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "blue-fox-trading-sprint-sow",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "blue-fox-trading-intro-call-zach",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "seda-law-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "hbl-crm-implementation-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "working-document-not-proposal-frame",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "orange-blue-callout-system",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "eight-partnership-principles",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "decision-framework-with-our-read",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "three-shape-options-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "fears-table-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "hubspot-onboarding-waiver-timing",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "discussing-together-prompts",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "what-we-are-not-deciding-today-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "out-of-scope-explicit-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-implementation-blueprint",
+    "target": "what-we-need-before-kickoff-checklist",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "blue-fox-trading-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "blue-fox-trading-implementation-blueprint",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "pioneer-metal-engagement-overview",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "seda-law-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "hbl-crm-implementation-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "conversational-sow-format",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "kill-switch-30-days-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "data-caveat-section",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "acceptance-criteria-testable-bullets",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "same-team-continuity-clause",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "partnership-plan-placeholder-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "blue-fox-trading-sprint-sow",
+    "target": "kickoff-on-1st-or-15th-rule",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "petroff-amshen-strategic-scoping-managing-partners",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "carpenter-chartered-discovery-2026-05-05",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "2026-case-os-framework",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "huify-history-era-7-legal-pivot-2023-2024",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "petroff-amshen-path-to-functional",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "rosetta-stone-terminology-mapping",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "hit-list-strategic-targeting",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "hubspot-properties-master-mapping",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "onsite-discovery-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "mock-demo-rehearsal-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "intake-throughput-baseline-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "bronson-camp-lejeune-process-improvements",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "bronson-strategic-marketing-campaign-playbook",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "bronson-intake-meeting-notes",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "bronson-intake-desk-notes",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "bronson-hubspot-properties-master",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "bronson-mock-demo",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "bronson-rosetta-stone",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "bronson-napoli-crm-optimization",
+    "target": "bronson-napoli-onsite-notes",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-cosell-playbook",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-cosell-playbook",
+    "target": "carpenter-chartered-discovery-2026-05-05",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-cosell-playbook",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-cosell-playbook",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-cosell-playbook",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-cosell-playbook",
+    "target": "lane-split-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-cosell-playbook",
+    "target": "prep-and-debrief-ritual",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-cosell-playbook",
+    "target": "rep-sourced-vs-partner-sourced-attribution",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-cosell-playbook",
+    "target": "three-hard-rules-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-cosell-playbook",
+    "target": "commitment-question-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-cosell-playbook",
+    "target": "case-velocity-framework",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-cosell-playbook",
+    "target": "risk-flags-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-cosell-playbook",
+    "target": "health-vs-stalling-criteria-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-discovery-2026-05-05",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-discovery-2026-05-05",
+    "target": "carpenter-chartered-cosell-playbook",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-discovery-2026-05-05",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-discovery-2026-05-05",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-discovery-2026-05-05",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-discovery-2026-05-05",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-discovery-2026-05-05",
+    "target": "department-by-department-discovery-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-discovery-2026-05-05",
+    "target": "upstream-question-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-discovery-2026-05-05",
+    "target": "opportunity-cost-discovery-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-discovery-2026-05-05",
+    "target": "crawl-walk-run-scope-signaling",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-discovery-2026-05-05",
+    "target": "discovery-completion-percent-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-chartered-discovery-2026-05-05",
+    "target": "productized-upsell-discovery-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-john-recommended-path",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-john-recommended-path",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-john-recommended-path",
+    "target": "carpenter-chartered-discovery-2026-05-05",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-john-recommended-path",
+    "target": "carpenter-chartered-cosell-playbook",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-john-recommended-path",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-john-recommended-path",
+    "target": "advisor-frame-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "carpenter-john-recommended-path",
+    "target": "keep-what-works-frame",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "casepacer-client-overview",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "casepacer-client-overview",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "casepacer-client-overview",
+    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "casepacer-client-overview",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "casepacer-client-overview",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "casepacer-client-overview",
+    "target": "crm-kickstart-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "casepacer-client-overview",
+    "target": "dual-relationship-client-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "ensight-technologies-client-overview",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "ensight-technologies-client-overview",
+    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "ensight-technologies-client-overview",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "ensight-technologies-client-overview",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "ensight-technologies-client-overview",
+    "target": "negotiation-impact-report-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "gme-supply-client-overview",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "gme-supply-client-overview",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "gme-supply-client-overview",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "gme-supply-client-overview",
+    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "gme-supply-client-overview",
+    "target": "hansen-rosasco-client-overview",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "gme-supply-client-overview",
+    "target": "pioneer-metal-engagement-overview",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "gme-supply-client-overview",
+    "target": "huify-history-era-6-author-closing-culture-2021-2022",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "gme-supply-client-overview",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "gme-supply-client-overview",
+    "target": "phase-1-services-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "gme-supply-client-overview",
+    "target": "training-portal-build-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "gme-supply-client-overview",
+    "target": "data-cleanup-dedup-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "gme-supply-client-overview",
+    "target": "sergio-mendoza-workflow-builder",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-ai-proof-extraction-plan",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-ai-proof-extraction-plan",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-ai-proof-extraction-plan",
+    "target": "huify-documents-platform",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-ai-proof-extraction-plan",
+    "target": "lcl-phase-1",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-ai-proof-extraction-plan",
+    "target": "lcl-phase-2-scoping",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-ai-proof-extraction-plan",
+    "target": "polly-email-sweep",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-ai-proof-extraction-plan",
+    "target": "pairing-method-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-ai-proof-extraction-plan",
+    "target": "ai-vs-not-ai-cut",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "2026-case-os-framework",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "ai-in-hr-today-skeleton",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "bronson-napoli-crm-optimization",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "seda-law-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "hr-client-overview-doc",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "hr-kickoff-agenda",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "hr-intake-call-playbook",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "hr-intake-blitz-launch",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "hr-nspr-overview-training",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "hr-pandadoc-hackathon-slide-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "hr-data-driven-prompts-pi",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "hr-lawruler-migration-action-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "hr-incomplete-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "lawruler-to-hubspot-migration-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "intake-blitz-launch-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "four-pillar-ai-grouping",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "case-velocity-formula",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "black-box-problem-frame",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "pairing-method-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "multi-team-template-management-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "design-partner-for-product-spinoff-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-client-overview",
+    "target": "hubspot-company-id-32451263031",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-year-one-review-deck",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-year-one-review-deck",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-year-one-review-deck",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-year-one-review-deck",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-year-one-review-deck",
+    "target": "black-box-problem-frame",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-year-one-review-deck",
+    "target": "four-pillar-ai-grouping",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-year-one-review-deck",
+    "target": "durability-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-year-one-review-deck",
+    "target": "named-ask-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-year-one-review-deck",
+    "target": "lcl-phase-1",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-year-one-review-deck",
+    "target": "lcl-phase-2-scoping",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hansen-rosasco-year-one-review-deck",
+    "target": "polly-email-sweep",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hbl-crm-implementation-plan",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hbl-crm-implementation-plan",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hbl-crm-implementation-plan",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hbl-crm-implementation-plan",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hbl-crm-implementation-plan",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hbl-crm-implementation-plan",
+    "target": "hbl-crm-implementation-plan-pdf",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hbl-crm-implementation-plan",
+    "target": "we-heard-you-rescope-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hbl-crm-implementation-plan",
+    "target": "what-changed-what-didnt-table",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hbl-crm-implementation-plan",
+    "target": "you-have-been-on-this-side-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hbl-crm-implementation-plan",
+    "target": "hub-included-not-built-out-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hbl-crm-implementation-plan",
+    "target": "year-1-return-table-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hbl-crm-implementation-plan",
+    "target": "year-2-cost-zero-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hbl-crm-implementation-plan",
+    "target": "4-hours-client-time-budget-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "hbl-crm-implementation-plan",
+    "target": "build-train-handoff-model",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "petroff-amshen-strategic-scoping-managing-partners",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "seda-law-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "blue-fox-trading-implementation-blueprint",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "pioneer-metal-engagement-overview",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "2026-case-os-framework",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "huify-history-era-1-pre-huify-2012",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "huify-history-era-2-early-smb-2013-2014",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "huify-history-era-3-hubspot-partner-2015-2016",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "huify-history-era-4-insurance-saas-2017-2018",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "huify-history-era-6-author-closing-culture-2021-2022",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "huify-history-era-7-quiet-rebuild-legal-pivot-2023-2024",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "bronson-napoli-crm-optimization",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "client-pandadoc",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "client-fastspring",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "client-softbank-robotics-america",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "client-michael-hyatt-mhco",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "client-jon-bostock-retail-heroes",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "client-seda-law",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "client-marin-murphy",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "client-ensight-tech",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "client-casepacer",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "client-gme-supply",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "closing-culture-brand",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "audit-to-retainer-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "case-velocity-formula",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "plus-one-subscription-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "black-box-problem-frame",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-firm-evolution-timeline",
+    "target": "two-engine-model-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v1",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v1",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v1",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v1",
+    "target": "huify-gtm-context-compilation",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v1",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v1",
+    "target": "v1-to-v2-pivot-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "pioneer-metal-engagement-overview",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "huify-gtm-writeup",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "huify-gtm-context-compilation",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "huify-skills-scheduled-tasks-analysis",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "audit-to-retainer-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "content-led-pivot-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "hr-bottom-line-partner-series-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "warm-only-outbound-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "keep-defer-kill-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-gtm-writeup-v2",
+    "target": "named-bets-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-1-pre-huify-2012",
+    "target": "huify-history-era-2-early-smb-2013-2014",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-1-pre-huify-2012",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-2-early-smb-2013-2014",
+    "target": "huify-history-era-1-pre-huify-2012",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-2-early-smb-2013-2014",
+    "target": "huify-history-era-3-hubspot-partner-2015-2016",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-2-early-smb-2013-2014",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-2-early-smb-2013-2014",
+    "target": "client-halfunited",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-2-early-smb-2013-2014",
+    "target": "client-next-glass",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-2-early-smb-2013-2014",
+    "target": "client-tidal-creek-coop",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-2-early-smb-2013-2014",
+    "target": "client-logicbay",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-2-early-smb-2013-2014",
+    "target": "client-swain-center-uncw",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-2-early-smb-2013-2014",
+    "target": "wilmington-local-roots-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-2-early-smb-2013-2014",
+    "target": "one-off-project-separation-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "carpenter-chartered-cosell-playbook",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "huify-history-era-4-insurance-saas-2017-2018",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "huify-history-era-2-early-smb-2013-2014",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "2026-case-os-framework",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "client-pandadoc",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "client-fastspring",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "client-surescripts",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "client-containership",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "client-loftware",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "client-msights",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "closing-culture-brand",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "hubspot-solutions-partner-positioning",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "inbound-marketing-playbook",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "plus-one-subscription-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-4-insurance-saas-2017-2018",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-4-insurance-saas-2017-2018",
+    "target": "huify-history-era-3-hubspot-partner-2015-2016",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-4-insurance-saas-2017-2018",
+    "target": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-4-insurance-saas-2017-2018",
+    "target": "petroff-amshen-path-to-functional",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-4-insurance-saas-2017-2018",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-4-insurance-saas-2017-2018",
+    "target": "client-links-insurance",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-4-insurance-saas-2017-2018",
+    "target": "client-thrive-insurance",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-4-insurance-saas-2017-2018",
+    "target": "client-enow",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-4-insurance-saas-2017-2018",
+    "target": "client-eon-phase5group",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-4-insurance-saas-2017-2018",
+    "target": "client-medisuite",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-4-insurance-saas-2017-2018",
+    "target": "client-resonea",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-4-insurance-saas-2017-2018",
+    "target": "regulatory-compliance-configuration-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-4-insurance-saas-2017-2018",
+    "target": "vertical-specialization-without-lock-in",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "carpenter-chartered-cosell-playbook",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "huify-history-era-4-insurance-saas-2017-2018",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "huify-history-era-6-author-closing-culture-2021-2022",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "client-softbank-robotics-america",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "client-softbank-robotics-uk",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "client-michael-hyatt-mhco",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "client-sweet-fish-media",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "client-self-publishing-school",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "client-twisted-wares",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "client-gamebench",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "email-to-brian-halligan-2019",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "closing-culture-brand",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "closing-culture-book",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "multi-national-enterprise-coordination-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "author-platform-engagement-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "stay-at-firm-i-built-decision",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "covid-remote-operating-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "petroff-amshen-strategic-scoping-managing-partners",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "huify-history-era-7-legal-pivot-2023-2024",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "blue-fox-trading-implementation-blueprint",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "client-closing-culture-students",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "client-jon-bostock-retail-heroes",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "client-set-service-excellence-training",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "client-100-coaches",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "client-smc-national",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "client-pause-breathwork",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "client-shiplion",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "client-evercast",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "client-vendibean",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "client-defy-trends",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "client-safelyyou",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "closing-culture-brand",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "closing-culture-book",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "brand-outlives-product-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "author-platform-as-ip-feeder-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-6-author-closing-culture-2021-2022",
+    "target": "podcast-guesting-for-credibility-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "petroff-amshen-strategic-scoping-managing-partners",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "huify-skills-scheduled-tasks-analysis",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "petroff-amshen-path-to-functional",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "blue-fox-trading-implementation-blueprint",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "bronson-napoli-crm-optimization",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "huify-history-era-6-author-closing-culture-2021-2022",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "client-pandadoc",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "client-trackable-io",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "client-new-frontier-funding",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "2026-case-os-framework",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "bridge-engagement-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "fto-process-discipline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "closing-culture-sales-template",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "closing-culture-brand",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "huify-gtm-writeup-v1",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "huify-skills-scheduled-tasks-analysis",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "2026-case-os-framework",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "blue-fox-trading-implementation-blueprint",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "huify-history-era-7-legal-pivot-2023-2024",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "carpenter-chartered-discovery-2026-05-05",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "carpenter-chartered-cosell-playbook",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "petroff-amshen-strategic-scoping-managing-partners",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "petroff-amshen-operational-scoping-team",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "petroff-amshen-site-map",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "petroff-amshen-path-to-functional",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "blue-fox-trading-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "blue-fox-trading-sprint-sow",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "pioneer-metal-engagement-overview",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "hbl-crm-implementation-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "seda-law-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "ai-in-hr-today-skeleton",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "bronson-napoli-crm-optimization",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "closing-culture-brand",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "audit-to-retainer-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "case-velocity-formula",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "plus-one-subscription-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "two-engine-model-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "hard-kill-checkpoint-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "v1-to-v2-pivot-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "ai-as-the-engine-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "black-box-problem-frame",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-horizontal-expansion-gtm",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-horizontal-expansion-gtm",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-horizontal-expansion-gtm",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-horizontal-expansion-gtm",
+    "target": "huify-gtm-writeup",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-horizontal-expansion-gtm",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-horizontal-expansion-gtm",
+    "target": "huify-gtm-context-compilation",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-horizontal-expansion-gtm",
+    "target": "wedge-dont-dilute-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-horizontal-expansion-gtm",
+    "target": "milestone-gated-expansion-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-horizontal-expansion-gtm",
+    "target": "smallest-viable-experiment-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-horizontal-expansion-gtm",
+    "target": "referral-motion-clean-ask-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-skills-scheduled-tasks-analysis",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-skills-scheduled-tasks-analysis",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-skills-scheduled-tasks-analysis",
+    "target": "mediafly-lee-roquet",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-skills-scheduled-tasks-analysis",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-skills-scheduled-tasks-analysis",
+    "target": "plus-one-subscription-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-skills-scheduled-tasks-analysis",
+    "target": "consolidation-over-single-purpose-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-skills-scheduled-tasks-analysis",
+    "target": "starter-pack-three-skills-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-skills-scheduled-tasks-analysis",
+    "target": "approve-to-write-progression",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-skills-scheduled-tasks-analysis",
+    "target": "ground-truth-not-pitch-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-skills-scheduled-tasks-analysis",
+    "target": "brain-sync-skill",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-skills-scheduled-tasks-analysis",
+    "target": "advisor-frame-skill",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-skills-scheduled-tasks-analysis",
+    "target": "day-of-meeting-prep-skill",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-skills-scheduled-tasks-analysis",
+    "target": "daily-gong-coaching-skill",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "huify-skills-scheduled-tasks-analysis",
+    "target": "post-meeting-hubspot-tasks-skill",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "marin-murphy-client-overview",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "marin-murphy-client-overview",
+    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "marin-murphy-client-overview",
+    "target": "hansen-rosasco-client-overview",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "marin-murphy-client-overview",
+    "target": "seda-law-client-overview",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "marin-murphy-client-overview",
+    "target": "casepacer-client-overview",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "marin-murphy-client-overview",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "marin-murphy-client-overview",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "marin-murphy-client-overview",
+    "target": "hubspot-kickoff-meeting-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "marin-murphy-client-overview",
+    "target": "mycase-integration-planning",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "marin-murphy-client-overview",
+    "target": "keep-what-works-frame",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "mediafly-sizzle-deck",
+    "target": "huify-skills-scheduled-tasks-analysis",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "mediafly-sizzle-deck",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "mediafly-sizzle-deck",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "mediafly-sizzle-deck",
+    "target": "mediafly-lee-roquet",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "mediafly-sizzle-deck",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "mediafly-sizzle-deck",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "mediafly-sizzle-deck",
+    "target": "plus-one-subscription-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "mediafly-sizzle-deck",
+    "target": "founding-customer-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "mediafly-sizzle-deck",
+    "target": "three-lane-offer-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "mediafly-sizzle-deck",
+    "target": "door-already-standing-at-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "mediafly-sizzle-deck",
+    "target": "approve-to-write-progression",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "mediafly-sizzle-deck",
+    "target": "ground-truth-not-pitch-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "mediafly-sizzle-deck",
+    "target": "advisor-frame-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-marketing-content-operations",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-marketing-content-operations",
+    "target": "petroff-amshen-site-map",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-marketing-content-operations",
+    "target": "petroff-amshen-path-to-functional",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-marketing-content-operations",
+    "target": "petroff-amshen-strategic-scoping-managing-partners",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-marketing-content-operations",
+    "target": "petroff-amshen-operational-scoping-team",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-marketing-content-operations",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-marketing-content-operations",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-marketing-content-operations",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-marketing-content-operations",
+    "target": "petroff-amshen-working-session-4-29",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-marketing-content-operations",
+    "target": "three-option-pricing-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-marketing-content-operations",
+    "target": "cost-of-inaction-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-marketing-content-operations",
+    "target": "bundled-audit-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-marketing-content-operations",
+    "target": "closing-culture-brand",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-marketing-content-operations",
+    "target": "honest-scope-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-marketing-content-operations",
+    "target": "hubspot-partner-cosell-channel",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-operational-scoping-team",
+    "target": "petroff-amshen-strategic-scoping-managing-partners",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-operational-scoping-team",
+    "target": "petroff-amshen-working-session-4-29",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-operational-scoping-team",
+    "target": "petroff-amshen-site-map",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-operational-scoping-team",
+    "target": "petroff-amshen-path-to-functional",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-operational-scoping-team",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-operational-scoping-team",
+    "target": "2026-case-os-framework",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-operational-scoping-team",
+    "target": "partner-doc-team-doc-split",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-operational-scoping-team",
+    "target": "bullet-points-fine-intake-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-operational-scoping-team",
+    "target": "why-i-am-asking-one-liners",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-operational-scoping-team",
+    "target": "transparency-about-shared-responses",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-path-to-functional",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-path-to-functional",
+    "target": "petroff-amshen-site-map",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-path-to-functional",
+    "target": "petroff-amshen-strategic-scoping-managing-partners",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-path-to-functional",
+    "target": "petroff-amshen-operational-scoping-team",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-path-to-functional",
+    "target": "petroff-amshen-working-session-4-29",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-path-to-functional",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-path-to-functional",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-path-to-functional",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-path-to-functional",
+    "target": "what-i-heard-opener-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-path-to-functional",
+    "target": "path-to-functional-frame",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-path-to-functional",
+    "target": "week-by-week-deliverables-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-path-to-functional",
+    "target": "case-lifecycle-calibration-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-path-to-functional",
+    "target": "not-in-scope-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-path-to-functional",
+    "target": "phase-3-deferral-discipline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-site-map",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-site-map",
+    "target": "petroff-amshen-path-to-functional",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-site-map",
+    "target": "petroff-amshen-strategic-scoping-managing-partners",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-site-map",
+    "target": "petroff-amshen-operational-scoping-team",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-site-map",
+    "target": "petroff-amshen-working-session-4-29",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-site-map",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-site-map",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-site-map",
+    "target": "content-inventory-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-site-map",
+    "target": "amber-green-box-format",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-site-map",
+    "target": "lp-consolidation-50-visit-rule",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-site-map",
+    "target": "phase-1-parallel-build-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-site-map",
+    "target": "information-to-gather-checklist-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "petroff-amshen-operational-scoping-team",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "2026-case-os-framework",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "petroff-amshen-working-session-4-29",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "petroff-amshen-path-to-functional",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "petroff-amshen-site-map",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "partner-doc-team-doc-split",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "transparency-about-bias-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "four-paths-with-no-sale-option",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "minute-by-minute-agenda-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "unpolished-more-useful-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "five-strategic-questions-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "petroff-amshen-strategic-scoping-managing-partners",
+    "target": "website-as-measurable-intake-engine",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "pioneer-metal-engagement-overview",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "pioneer-metal-engagement-overview",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "pioneer-metal-engagement-overview",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "pioneer-metal-engagement-overview",
+    "target": "pioneer-engagement-letter",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "pioneer-metal-engagement-overview",
+    "target": "pioneer-paul-1on1-prep",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "pioneer-metal-engagement-overview",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "pioneer-metal-engagement-overview",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "pioneer-metal-engagement-overview",
+    "target": "audit-to-phase-2-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "pioneer-metal-engagement-overview",
+    "target": "day-14-out-clause-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "pioneer-metal-engagement-overview",
+    "target": "priority-tagged-discovery-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "pioneer-metal-engagement-overview",
+    "target": "walk-it-with-us-co-authorship",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "pioneer-metal-engagement-overview",
+    "target": "one-point-lift-math",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "pioneer-metal-engagement-overview",
+    "target": "brand-gravity-without-harvest-frame",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "pioneer-metal-engagement-overview",
+    "target": "past-investment-at-risk-flag",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "pioneer-metal-engagement-overview",
+    "target": "four-person-pod-team-slide",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-client-overview",
+    "target": "seda-law-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-client-overview",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-client-overview",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-client-overview",
+    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-client-overview",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-client-overview",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-client-overview",
+    "target": "blue-fox-trading-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-client-overview",
+    "target": "hansen-rosasco-client-overview",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-client-overview",
+    "target": "carpenter-chartered-discovery-2026-05-05",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-client-overview",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-client-overview",
+    "target": "four-tool-legal-billing-architecture",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-client-overview",
+    "target": "deal-anchored-to-external-event",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-client-overview",
+    "target": "lawcus-sunset-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "carpenter-chartered-discovery-2026-05-05",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "hbl-crm-implementation-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "phase-0-lean-start-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "four-tool-legal-billing-architecture",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "deal-anchored-to-external-event",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "buyer-numbers-roi-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "verdict-box-per-option",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "10-percent-upfront-discount-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "seda-law-decision-summary",
+    "target": "keep-what-works-frame",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "huify-documents-platform",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "carpenter-chartered-discovery-2026-05-05",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "carpenter-chartered-cosell-playbook",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "huify-skills-scheduled-tasks-analysis",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "huify-gtm-writeup-v1",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "huify-gtm-context-compilation",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "two-engine-model-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "ai-as-the-engine-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "quick-start-sprint-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "hard-kill-checkpoint-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "auto-renewal-without-contract-event",
+    "relationship_type": "wikilink",
+    "weight": 1
+  },
+  {
+    "source": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "retired-offers-discipline",
+    "relationship_type": "wikilink",
+    "weight": 1
   }
 ]
