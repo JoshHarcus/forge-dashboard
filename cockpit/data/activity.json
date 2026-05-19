@@ -1,22 +1,307 @@
 [
-  { "ts": "2026-05-06T22:18:00", "text": "Forge Cockpit MVP shipped to GitHub Pages.", "node": "forge-cockpit" },
-  { "ts": "2026-05-06T19:42:00", "text": "Brain-Sync Skill v2 wired up to nodes.json + edges.json output.", "node": "brain-sync-skill" },
-  { "ts": "2026-05-06T18:11:00", "text": "Day-of Meeting Prep skill scheduled at 24h and 1h triggers.", "node": "day-of-meeting-prep" },
-  { "ts": "2026-05-06T16:55:00", "text": "Forge Identity Architecture frontmatter contract finalized.", "node": "forge-identity-architecture" },
-  { "ts": "2026-05-06T15:20:00", "text": "Mediafly pricing variant locked. Contract in legal review.", "node": "mediafly-plus-one" },
-  { "ts": "2026-05-06T14:02:00", "text": "Carpenter Chartered first-call notes captured via Call-Wrap.", "node": "carpenter-chartered" },
-  { "ts": "2026-05-06T11:40:00", "text": "Plus One MMO concept doc spun up (parking idea, low priority).", "node": "plus-one-mmo-gamification" },
-  { "ts": "2026-05-06T10:08:00", "text": "Hüify Skills Audit checklist refreshed for May.", "node": "huify-skills-audit" },
-  { "ts": "2026-05-06T09:31:00", "text": "Advisor Frame Rule promoted to high priority across all sales nodes.", "node": "advisor-frame-rule" },
-  { "ts": "2026-05-04T17:25:00", "text": "Three Hüify Properties draft v3 published.", "node": "three-huify-properties" },
-  { "ts": "2026-05-02T13:44:00", "text": "Wave Energy Services flagged: signature pending 21 days.", "node": "wave-energy-services" },
-  { "ts": "2026-04-29T15:08:00", "text": "GME Supply monthly check-in completed. New marketing hire incoming.", "node": "gme-supply" },
-  { "ts": "2026-04-22T11:15:00", "text": "Don't Recreate User Actions rule formalized.", "node": "dont-recreate-user-actions" },
-  { "ts": "2026-04-20T14:30:00", "text": "EnSight Tech week-eight sync. Skills audit scheduled for week ten.", "node": "ensight-tech" },
-  { "ts": "2026-04-15T10:00:00", "text": "Hansen Rosasco closed won. First retainer invoice sent.", "node": "hansen-rosasco" },
-  { "ts": "2026-04-12T16:20:00", "text": "Call-Wrap skill rolled out to internal team.", "node": "call-wrap-skill" },
-  { "ts": "2026-04-10T12:00:00", "text": "CasePacer renewal closed. Year-two terms signed.", "node": "casepacer" },
-  { "ts": "2026-04-05T09:18:00", "text": "Plus One Pricing Model rebuilt around three-tier anchor.", "node": "plus-one-pricing-model" },
-  { "ts": "2026-03-28T14:40:00", "text": "Forge Identity Architecture v1 doc created.", "node": "forge-identity-architecture" },
-  { "ts": "2026-03-15T11:00:00", "text": "Federated brain repo josh-identity initialized.", "node": "forge-identity-architecture" }
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "TortScale parent operating plan. Two-engine model. Hard kill checkpoint May 31, 2026.",
+    "node": "tortscale-readinessaudit-gtm-operating-plan-v2"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "SEDA Law decision summary. A/B/C options with Option C lean-start recommended. Patrick Maniego pricing transparency.",
+    "node": "seda-law-decision-summary"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "SEDA Law client overview. $12K closed 2025. Option C lean-start path proves the Sprint motion.",
+    "node": "seda-law-client-overview"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Pioneer Metal Finishings RFQ-to-Close audit. $30K, day-14 out clause, $15K max risk. One-point-lift math.",
+    "node": "pioneer-metal-engagement-overview"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Petroff Amshen partner-doc (Serge). Transparency-about-bias frame, four-paths-with-no-sale option.",
+    "node": "petroff-amshen-strategic-scoping-managing-partners"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Petroff Amshen site map and page inventory. ~110 LPs to ~40-50 consolidation rule (50-monthly-visit keep rule).",
+    "node": "petroff-amshen-site-map"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Petroff Amshen proposal narrative. 14-days-functional / 6-weeks-optimized / Phase-2-later.",
+    "node": "petroff-amshen-path-to-functional"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Petroff Amshen team-doc (Marianne, Mario). 6 operational questions, 15-20 min bullet-points.",
+    "node": "petroff-amshen-operational-scoping-team"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Petroff Amshen formal quote ($42K Standard, $14K/mo, 3-month). Audit bundled not billed.",
+    "node": "petroff-amshen-marketing-content-operations"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Mediafly Plus One sizzle deck. $3K Launch + auto-renew. 11 reusable patterns named.",
+    "node": "mediafly-sizzle-deck"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Marin & Murphy overview. Earliest post-H&R legal client. MyCase + HubSpot integration pattern.",
+    "node": "marin-murphy-client-overview"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "H\u00fcify Skills + Scheduled Tasks audit. 8 running, 5 consolidated. Plus One operational truth.",
+    "node": "huify-skills-scheduled-tasks-analysis"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Huify Horizontal Expansion brief. Wedge-don't-dilute + milestone-gated Phase 2.",
+    "node": "huify-horizontal-expansion-gtm"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Era 8 (2025-present, legal vertical + Documents AI) cluster card. All 24 active-state cards sit here.",
+    "node": "huify-history-era-8-legal-documents-ai-2025-present"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Era 7 (2023-2024, legal pivot bridge) cluster card. Bronson/Napoli engagement = inflection point.",
+    "node": "huify-history-era-7-legal-pivot-2023-2024"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Era 6 (2021-2022, Closing Culture era) cluster card. Book ships, brand crystallizes, IP era begins.",
+    "node": "huify-history-era-6-author-closing-culture-2021-2022"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Era 5 (2019-2020, enterprise pivot) cluster card. SoftBank Robotics + Michael Hyatt + the Halligan-job moment.",
+    "node": "huify-history-era-5-enterprise-pivot-2019-2020"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Era 4 (2017-2018, insurance + B2B SaaS) cluster card written. Halligan partner-day relationship deepens.",
+    "node": "huify-history-era-4-insurance-saas-2017-2018"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Era 3 (2015-2016, HubSpot Partner era) cluster card. PandaDoc + FastSpring as anchor SaaS proofs.",
+    "node": "huify-history-era-3-hubspot-partner-2015-2016"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Era 2 (2013-2014, Wilmington SMB) cluster card written. HalfUnited, Next Glass, Tidal Creek, Sara Rose joins.",
+    "node": "huify-history-era-2-early-smb-2013-2014"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Era 1 (2012, pre-Huify one-offs) cluster card written. Muriel, Fanooki, CPER, Huberty.",
+    "node": "huify-history-era-1-pre-huify-2012"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Huify GTM v2 (content-led edition) active 90-day plan card. 12 reusable patterns named.",
+    "node": "huify-gtm-writeup-v2"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Huify GTM v1 preserved as reference. Same-day pivot moment captured.",
+    "node": "huify-gtm-writeup-v1"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Master timeline shipped: 8 eras (2012-2026), 70+ archived clients mapped, methodology lineage traced.",
+    "node": "huify-firm-evolution-timeline"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "HBL (Hall Benefits Law) rescoped plan. $15K fixed fee, 99% cheaper than Bullhorn year 1, build-train-handoff model.",
+    "node": "hbl-crm-implementation-plan"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "H&R year-one review deck card. The $526K story, Black Box framing, named ask for reference-case status.",
+    "node": "hansen-rosasco-year-one-review-deck"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Hansen & Rosasco hero client overview. $526K year-one recovery. 23K records migrated zero lost. Design partner for Documents AI.",
+    "node": "hansen-rosasco-client-overview"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "H&R AI proof extraction blueprint. Pairing method, 18 verified shipped pieces, phantom-section discipline.",
+    "node": "hansen-rosasco-ai-proof-extraction-plan"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "GME Supply overview. Manufacturing parallel to legal verticals. $40K combined 2026 value.",
+    "node": "gme-supply-client-overview"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "EnSight Tech overview. $3K/mo retainer + Negotiation Impact Report pattern.",
+    "node": "ensight-technologies-client-overview"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "CasePacer overview. Dual-relationship: client + ecosystem vendor in plaintiff-firm software space.",
+    "node": "casepacer-client-overview"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Carpenter Chartered John 1:1 prep. Keep-what-works frame, advisor-frame opener, 6 reusable assets.",
+    "node": "carpenter-john-recommended-path"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Carpenter Chartered May 5 process discovery. 32 questions across 7 departments. What-do-you-need-from-upstream anchor.",
+    "node": "carpenter-chartered-discovery-2026-05-05"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Carpenter Chartered + HubSpot/Zawad cosell playbook. Lane split rules, 3 hard rules, prep-and-debrief ritual.",
+    "node": "carpenter-chartered-cosell-playbook"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Bronson/Napoli (first legal client) deep-dive. Rosetta Stone Day 2 pattern, Hit List spreadsheet, AI-synthesis pass June 2025.",
+    "node": "bronson-napoli-crm-optimization"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Blue Fox Trading formal Sprint SOW. Conversational SOW format, kill switch clause, data caveat section.",
+    "node": "blue-fox-trading-sprint-sow"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Blue Fox Trading blueprint walkthrough. Direction-not-dollars, eight partnership principles, working-doc-not-proposal.",
+    "node": "blue-fox-trading-implementation-blueprint"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Blue Fox Trading decision summary. Sprint chosen at $7K. 99% cheaper than Bullhorn year 1.",
+    "node": "blue-fox-trading-decision-summary"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "AI in H&R Today deck stub flagged for Josh verification (AEO, Claim Score: real or aspirational?).",
+    "node": "ai-in-hr-today-skeleton"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "Extraction methodology codified. 7-step pipeline, 9-section card structure, 34 named patterns recognized.",
+    "node": "forge-extraction-methodology"
+  },
+  {
+    "ts": "2026-05-19T22:30:00",
+    "text": "2026 Case OS Framework methodology card. Case Velocity formula, Legacy CRM Trap frame, Shannon Quinn quote.",
+    "node": "2026-case-os-framework"
+  },
+  {
+    "ts": "2026-05-06T22:18:00",
+    "text": "Forge Cockpit MVP shipped to GitHub Pages.",
+    "node": "forge-cockpit"
+  },
+  {
+    "ts": "2026-05-06T19:42:00",
+    "text": "Brain-Sync Skill v2 wired up to nodes.json + edges.json output.",
+    "node": "brain-sync-skill"
+  },
+  {
+    "ts": "2026-05-06T18:11:00",
+    "text": "Day-of Meeting Prep skill scheduled at 24h and 1h triggers.",
+    "node": "day-of-meeting-prep"
+  },
+  {
+    "ts": "2026-05-06T16:55:00",
+    "text": "Forge Identity Architecture frontmatter contract finalized.",
+    "node": "forge-identity-architecture"
+  },
+  {
+    "ts": "2026-05-06T15:20:00",
+    "text": "Mediafly pricing variant locked. Contract in legal review.",
+    "node": "mediafly-plus-one"
+  },
+  {
+    "ts": "2026-05-06T14:02:00",
+    "text": "Carpenter Chartered first-call notes captured via Call-Wrap.",
+    "node": "carpenter-chartered"
+  },
+  {
+    "ts": "2026-05-06T11:40:00",
+    "text": "Plus One MMO concept doc spun up (parking idea, low priority).",
+    "node": "plus-one-mmo-gamification"
+  },
+  {
+    "ts": "2026-05-06T10:08:00",
+    "text": "H\u00fcify Skills Audit checklist refreshed for May.",
+    "node": "huify-skills-audit"
+  },
+  {
+    "ts": "2026-05-06T09:31:00",
+    "text": "Advisor Frame Rule promoted to high priority across all sales nodes.",
+    "node": "advisor-frame-rule"
+  },
+  {
+    "ts": "2026-05-04T17:25:00",
+    "text": "Three H\u00fcify Properties draft v3 published.",
+    "node": "three-huify-properties"
+  },
+  {
+    "ts": "2026-05-02T13:44:00",
+    "text": "Wave Energy Services flagged: signature pending 21 days.",
+    "node": "wave-energy-services"
+  },
+  {
+    "ts": "2026-04-29T15:08:00",
+    "text": "GME Supply monthly check-in completed. New marketing hire incoming.",
+    "node": "gme-supply"
+  },
+  {
+    "ts": "2026-04-22T11:15:00",
+    "text": "Don't Recreate User Actions rule formalized.",
+    "node": "dont-recreate-user-actions"
+  },
+  {
+    "ts": "2026-04-20T14:30:00",
+    "text": "EnSight Tech week-eight sync. Skills audit scheduled for week ten.",
+    "node": "ensight-tech"
+  },
+  {
+    "ts": "2026-04-15T10:00:00",
+    "text": "Hansen Rosasco closed won. First retainer invoice sent.",
+    "node": "hansen-rosasco"
+  },
+  {
+    "ts": "2026-04-12T16:20:00",
+    "text": "Call-Wrap skill rolled out to internal team.",
+    "node": "call-wrap-skill"
+  },
+  {
+    "ts": "2026-04-10T12:00:00",
+    "text": "CasePacer renewal closed. Year-two terms signed.",
+    "node": "casepacer"
+  },
+  {
+    "ts": "2026-04-05T09:18:00",
+    "text": "Plus One Pricing Model rebuilt around three-tier anchor.",
+    "node": "plus-one-pricing-model"
+  },
+  {
+    "ts": "2026-03-28T14:40:00",
+    "text": "Forge Identity Architecture v1 doc created.",
+    "node": "forge-identity-architecture"
+  },
+  {
+    "ts": "2026-03-15T11:00:00",
+    "text": "Federated brain repo josh-identity initialized.",
+    "node": "forge-identity-architecture"
+  }
 ]
