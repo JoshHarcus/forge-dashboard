@@ -1,0 +1,119 @@
+{
+  "campaigns": [
+    {
+      "id": "warm-list-reactivation-2026-05",
+      "name": "Warm-List Reactivation (May 2026)",
+      "description": "7 outreach messages to dormant warm contacts. Goal: 2-3 conversations and 1-2 deals in 90 days.",
+      "status": "ready-to-send",
+      "started": "2026-05-19",
+      "target_close": "2026-08-19",
+      "sends": [
+        {
+          "id": "pandadoc",
+          "target": "PandaDoc current partnerships lead",
+          "company": "PandaDoc",
+          "first_name": "[fill in]",
+          "channel_primary": "LinkedIn DM",
+          "channel_fallback": "Email",
+          "send_week": 1,
+          "send_day": "Mon",
+          "subject": "quick check-in (Huify x PandaDoc, 10-year arc)",
+          "hook": "10-year relationship rekindle + TortScale partnership opening",
+          "expected_outcome": "Warm intro to current PandaDoc leadership. Possible Marketplace partnership.",
+          "linkedin_dm": "Hey [first name],\n\nLong arc check-in. Huify has been on PandaDoc since 2016 — kickoff, sales enablement, Marketplace partner channel work.\n\nUpdate: we just shipped a 31-template Pandadoc migration for a 9/11 VCF mass-tort firm (Hansen & Rosasco). $526K year-one operational outcome. We're spinning the document-management piece out as a HubSpot-native product (TortScale Documents AI). HIPAA-compliant. Targeting Q3 launch. C-Corp filed this month.\n\nIf your team is open to a conversation about co-marketing or Marketplace cross-sell on TortScale's GTM, I'd love 20 min. If not, no follow-up.\n\nEither way, congrats on what y'all built.\n\nJosh",
+          "email_body": "Subject: quick check-in (Huify x PandaDoc, 10-year arc)\n\nHey [first name],\n\nQuick check-in. Huify has been on PandaDoc since the 2016 engagement (kickoff, sales enablement, the Marketplace partner channel work).\n\nUpdate: we just shipped a 31-template Pandadoc migration for a mass-tort firm (Hansen & Rosasco, 9/11 VCF practice). Variable mapping, locked source-of-truth cards, the works. $526K year-one operational outcome.\n\nWe're spinning the document-management piece out as a HubSpot-native product called TortScale Documents AI. HIPAA-compliant. Targeting Q3 launch. Filed the C-Corp this month.\n\nTwo reasons I'm reaching out:\n\n1. PandaDoc is the document signing piece in the stack. If your team is interested in a co-marketing or marketplace cross-sell on TortScale's go-to-market, I'd love a quick conversation.\n2. If not, no follow-up needed. Just wanted to close the loop given the 10-year arc.\n\nEither way, congrats on what y'all built. PandaDoc has been the document piece I trust on HubSpot for a decade.\n\nJosh"
+        },
+        {
+          "id": "bostock",
+          "target": "Jon Bostock",
+          "company": "Retail Heroes / Truman's",
+          "first_name": "Jon",
+          "channel_primary": "LinkedIn DM",
+          "channel_fallback": "Email",
+          "send_week": 1,
+          "send_day": "Wed",
+          "subject": "podcast guest ask + Huify update",
+          "hook": "Podcast collaboration angle + warm rekindle",
+          "expected_outcome": "Yes to podcast guesting; potential cross-promotion.",
+          "linkedin_dm": "Jon — long time. Huify still here, narrowed deep into legal-vertical RevOps the last 18 months. Two reasons I'm reaching out:\n\n1. We're standing up a podcast: \"Operations as a Competitive Advantage.\" Your story (Truman's, Retail Heroes, the entrepreneur-to-operator arc) is the show. Open to being guest #2 or #3? 30-45 min, batched recording day, full distribution support.\n\n2. If you ever need HubSpot RevOps help for any current project, you know where to find me.\n\nEither way, the Retail Heroes appearance still lives on my LinkedIn highlights. Appreciate the platform.\n\nJosh",
+          "email_body": "Subject: podcast guest ask + Huify update\n\nHey Jon,\n\nLong time. Huify is still here, narrowed deep into legal-vertical RevOps the last 18 months. Two reasons I'm reaching out:\n\n1. We're standing up a podcast called \"Operations as a Competitive Advantage\" — interviews with growth + ops leaders. Your story (Truman's, Retail Heroes podcast, the entrepreneur-to-operator arc) is exactly the show. Open to being guest #2 or #3? 30-45 min, batched recording day.\n\n2. If you ever need HubSpot RevOps help for any of your current projects, let me know.\n\nEither way, the Retail Heroes appearance you had me on back in 2021 still lives in my LinkedIn highlights. Appreciate the platform you built.\n\nJosh"
+        },
+        {
+          "id": "100coaches",
+          "target": "100 Coaches network coordinator",
+          "company": "100 Coaches (Marshall Goldsmith)",
+          "first_name": "[fill in]",
+          "channel_primary": "Email",
+          "channel_fallback": "LinkedIn DM",
+          "send_week": 2,
+          "send_day": "Mon",
+          "subject": "quick favor + warm-intro question",
+          "hook": "Referral-into-law-firm ask via executive coaching network",
+          "expected_outcome": "1-2 warm intros from 100 Coaches network into law-firm partners.",
+          "linkedin_dm": "Hey [first name] - quick favor. Huify (your 2022 client) just closed a $526K year-one outcome with a 9/11 plaintiff firm. Any coaches in the 100C network work with managing partners at mass-tort / personal injury / VA disability firms? Looking for warm intros to a referral-friendly audit (readinessaudit.com/legal). No follow-up if nothing comes to mind.",
+          "email_body": "Subject: quick favor + warm-intro question\n\nHi [first name],\n\nHuify wrapped up our work with 100 Coaches in 2022. Since then we've narrowed deep into legal-vertical RevOps and just closed a flagship year-one outcome ($526K capacity recovered) with a 9/11 VCF firm in NYC.\n\nQuick ask: 100 Coaches has reach into executive-coaching networks broadly. Is there a coach or member who works with managing partners at plaintiff law firms (mass tort, personal injury, federal claims, VA disability)?\n\nThe audit we sell (ReadinessAudit.com/legal) is a single-$5K/2-week diagnostic. Most firms can approve it without procurement. Easy intro on the recipient side.\n\nIf anyone comes to mind, the URL with your name attached: readinessaudit.com/legal?ref=100coaches\n\nNo follow-up if nothing surfaces. Hope you all are well.\n\nJosh"
+        },
+        {
+          "id": "hyatt",
+          "target": "Michael Hyatt or Full Focus assistant",
+          "company": "Michael Hyatt / Full Focus",
+          "first_name": "Michael",
+          "channel_primary": "Email",
+          "channel_fallback": "LinkedIn DM",
+          "send_week": 2,
+          "send_day": "Wed",
+          "subject": "quick update from Huify + warm-intro question",
+          "hook": "MHCO 2.5-year relationship rekindle + referral ask",
+          "expected_outcome": "Possible warm intro into Hyatt's exec coaching network. Friendly reply at minimum.",
+          "linkedin_dm": "Michael — quick update. Huify wrapped up MHCO work in 2022 then narrowed deep into legal-vertical. Just closed a $526K year-one outcome with a 9/11 plaintiff firm. The brand-led IP discipline I learned at Full Focus directly seeded Closing Culture as Huify's methodology. Anyone in your executive-coaching network connected to plaintiff law firm partners? Even a long-shot intro lands. No follow-up if nothing surfaces.",
+          "email_body": "Subject: quick update from Huify + a warm-intro question\n\nHi [first name],\n\nQuick update. Huify is still operating. After the 2.5-year MHCO engagement we narrowed in on legal-vertical work and just closed a flagship year-one outcome with a 9/11 VCF firm (Hansen & Rosasco, $526K capacity recovered).\n\nThe author-platform + brand-led IP discipline we learned at MHCO is the entire reason Huify has a brand identity today. Closing Culture (our methodology brand) was directly inspired by how Full Focus and BusinessAccelerator operated.\n\nQuick ask: I'm running an outreach motion to plaintiff firms — managing partners, founders, ops leaders. Anyone in Full Focus's executive-coaching network you know of who runs (or is married to / siblings with / etc.) someone at a plaintiff firm of size? Even a long-shot intro lands well if the firm has the right Black Box pain.\n\nNo follow-up if nothing comes to mind. Hope the planner business is going well.\n\nJosh"
+        },
+        {
+          "id": "sweetfish",
+          "target": "Sweet Fish Media leadership",
+          "company": "Sweet Fish Media",
+          "first_name": "[fill in]",
+          "channel_primary": "Email",
+          "channel_fallback": "LinkedIn DM",
+          "send_week": 3,
+          "send_day": "Mon",
+          "subject": "standing up a podcast - production partner conversation",
+          "hook": "Podcast production partnership for the Huify Podcast launch",
+          "expected_outcome": "Either Sweet Fish takes production or refers a fractional editor.",
+          "linkedin_dm": "Hey [first name] - quick update. Huify (your 2020 engagement) is launching a podcast — \"Operations as a Competitive Advantage,\" weekly, 30-45 min, ops + growth leaders. Considering production options ($600-1200/mo fractional editor budget). Would Sweet Fish take it on, or know a fractional partner in your network? Open to either path.\n\nJosh",
+          "email_body": "Subject: standing up a podcast - production partner conversation\n\nHi [first name],\n\nQuick update. Huify (your 2020 engagement) is launching a podcast called \"Operations as a Competitive Advantage\" — interviews with growth and ops leaders, weekly cadence, distribution to Spotify/Apple/YouTube/LinkedIn clips. 30-45 min episodes.\n\nWe're considering production options. Fractional editor + content distribution is the budget shape ($600-1200/mo). Two questions:\n\n1. Would Sweet Fish be interested in producing this directly?\n2. If not, do you know a fractional partner in your network who'd be the right fit?\n\nOpen to either path. The relationship is durable either way.\n\nJosh"
+        },
+        {
+          "id": "sbra",
+          "target": "Justin or Kate (SBRA 2020 contacts)",
+          "company": "SoftBank Robotics America",
+          "first_name": "[fill in]",
+          "channel_primary": "LinkedIn DM",
+          "channel_fallback": "",
+          "send_week": 4,
+          "send_day": "Mon",
+          "subject": "random reach-out after a few years",
+          "hook": "Rekindle relationship, no specific ask",
+          "expected_outcome": "Maintenance of relationship; possible future conversation.",
+          "linkedin_dm": "Hey [first name] — random reach-out after a few years. I was Huify's lead on the SBRA engagement in early 2020 (COVID-onset weeks, onboarding + 12-month sales team KPIs + the ICE Robotics work).\n\nUpdate: narrowed into legal-vertical RevOps post-COVID. Shipped a flagship year-one $526K outcome at a mass-tort firm. Now spinning out a document-AI product (TortScale) on the back of that work.\n\nNo specific ask. Mostly: hope you're well. If your current work touches HubSpot + AI ops at any scale, I'd love to compare notes.\n\nJosh",
+          "email_body": ""
+        },
+        {
+          "id": "patrick",
+          "target": "Patrick Maniego",
+          "company": "HubSpot",
+          "first_name": "Patrick",
+          "channel_primary": "Slack DM",
+          "channel_fallback": "Email",
+          "send_week": 4,
+          "send_day": "Wed",
+          "subject": "quick status + a few specific firms for the partner-channel pipeline",
+          "hook": "Active partner channel sync + AE intro asks",
+          "expected_outcome": "1-3 new HubSpot AE co-sell intros; possible HubSpot platform inclusion in H&R Bottom-Line Series.",
+          "linkedin_dm": "",
+          "email_body": "Patrick,\n\nQuick status before our next sync.\n\nState:\n- Hansen & Rosasco year-one milestone hitting May 19. $526K capacity recovered. Pitched H&R to be our named reference case for the 2026 plaintiff-firm launch.\n- Carpenter Chartered at 30% on the $150K HubSpot Implementation deal (joint with Zawad). John 1:1 happened May 7. Next touch coming this week.\n- SEDA Law closed $12K, now in Phase 0. Lawcus renewal hit, transitioned cleanly.\n- Petroff Amshen at $42K Standard quote, decision pending.\n\nTwo asks:\n\n1. Any HubSpot AEs in your network who'd benefit from a co-sell intro into the legal vertical? We have ReadinessAudit.com/legal as the front door now, $5K Sprint or $15K Audit shape.\n\n2. We're standing up the H&R Bottom-Line Partner Series — co-branded sessions with H&R's vendor partners. If HubSpot wants a seat as the underlying platform partner, happy to coordinate.\n\nJosh"
+        }
+      ]
+    }
+  ]
+}
