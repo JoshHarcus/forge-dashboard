@@ -7340,7 +7340,14 @@
   },
   {
     "source": "advisor-frame-pattern",
-    "target": "forge-extraction-methodology",
+    "target": "blue-fox-trading-implementation-blueprint",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "advisor-frame-pattern",
+    "target": "petroff-amshen-strategic-scoping-managing-partners",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
@@ -7353,8 +7360,127 @@
     "_from_batch": "forge-patterns-2026-05-19"
   },
   {
+    "source": "advisor-frame-pattern",
+    "target": "keep-what-works-frame",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "advisor-frame-pattern",
+    "target": "transparency-about-bias-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "advisor-frame-pattern",
+    "target": "four-paths-with-no-sale-option",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "advisor-frame-pattern",
+    "target": "closing-culture-brand",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "ai-as-the-engine-pattern",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "ai-as-the-engine-pattern",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "ai-as-the-engine-pattern",
+    "target": "bronson-napoli-crm-optimization",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "ai-as-the-engine-pattern",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "ai-as-the-engine-pattern",
+    "target": "huify-skills-scheduled-tasks-analysis",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "ai-as-the-engine-pattern",
+    "target": "quick-start-sprint-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "ai-as-the-engine-pattern",
+    "target": "plus-one-subscription-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "ai-as-the-engine-pattern",
+    "target": "audit-to-retainer-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "ai-as-the-engine-pattern",
+    "target": "closing-culture-brand",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
     "source": "audit-to-retainer-pattern",
-    "target": "huify-firm-evolution-timeline",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "audit-to-retainer-pattern",
+    "target": "quick-start-sprint-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "audit-to-retainer-pattern",
+    "target": "plus-one-subscription-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "audit-to-retainer-pattern",
+    "target": "pioneer-metal-engagement-overview",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "audit-to-retainer-pattern",
+    "target": "hansen-rosasco-client-overview",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
@@ -7368,14 +7494,35 @@
   },
   {
     "source": "audit-to-retainer-pattern",
-    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "seda-law-decision-summary",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
   },
   {
-    "source": "black-box-problem-frame",
-    "target": "hansen-rosasco-client-overview",
+    "source": "audit-to-retainer-pattern",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "audit-to-retainer-pattern",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "audit-to-retainer-pattern",
+    "target": "closing-culture-brand",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "audit-to-retainer-pattern",
+    "target": "two-engine-model-pattern",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
@@ -7389,14 +7536,49 @@
   },
   {
     "source": "black-box-problem-frame",
-    "target": "huify-firm-evolution-timeline",
+    "target": "case-velocity-formula",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
   },
   {
     "source": "black-box-problem-frame",
-    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "pioneer-metal-engagement-overview",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "black-box-problem-frame",
+    "target": "2026-case-os-framework",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "black-box-problem-frame",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "black-box-problem-frame",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "black-box-problem-frame",
+    "target": "legacy-crm-trap-frame",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "black-box-problem-frame",
+    "target": "looking-backward-vs-forward-pattern",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
@@ -7410,13 +7592,6 @@
   },
   {
     "source": "case-velocity-formula",
-    "target": "forge-extraction-methodology",
-    "relationship_type": "wikilink",
-    "weight": 1,
-    "_from_batch": "forge-patterns-2026-05-19"
-  },
-  {
-    "source": "case-velocity-formula",
     "target": "hansen-rosasco-client-overview",
     "relationship_type": "wikilink",
     "weight": 1,
@@ -7424,35 +7599,119 @@
   },
   {
     "source": "case-velocity-formula",
-    "target": "huify-firm-evolution-timeline",
+    "target": "hansen-rosasco-year-one-review-deck",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
   },
   {
     "source": "case-velocity-formula",
-    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "carpenter-chartered-cosell-playbook",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "case-velocity-formula",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "case-velocity-formula",
+    "target": "pioneer-metal-engagement-overview",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "case-velocity-formula",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "case-velocity-formula",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "case-velocity-formula",
+    "target": "seda-law-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "case-velocity-formula",
+    "target": "black-box-problem-frame",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "case-velocity-formula",
+    "target": "legacy-crm-trap-frame",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "case-velocity-formula",
+    "target": "closing-culture-brand",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
   },
   {
     "source": "closing-culture-brand",
-    "target": "huify-firm-evolution-timeline",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
   },
   {
     "source": "closing-culture-brand",
-    "target": "huify-history-era-3-hubspot-partner-2015-2016",
+    "target": "carpenter-john-recommended-path",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
   },
   {
     "source": "closing-culture-brand",
-    "target": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "closing-culture-brand",
+    "target": "blue-fox-trading-implementation-blueprint",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "closing-culture-brand",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "closing-culture-brand",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "closing-culture-brand",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
@@ -7466,21 +7725,28 @@
   },
   {
     "source": "closing-culture-brand",
-    "target": "huify-history-era-7-legal-pivot-2023-2024",
+    "target": "client-michael-hyatt-mhco",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
   },
   {
     "source": "closing-culture-brand",
-    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "email-to-brian-halligan-2019",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
   },
   {
     "source": "closing-culture-brand",
-    "target": "petroff-amshen-marketing-content-operations",
+    "target": "closing-culture-book",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "closing-culture-brand",
+    "target": "huify-firm-evolution-timeline",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
@@ -7494,14 +7760,70 @@
   },
   {
     "source": "hard-kill-checkpoint-pattern",
-    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
   },
   {
     "source": "hard-kill-checkpoint-pattern",
-    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "smallest-viable-experiment-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "hard-kill-checkpoint-pattern",
+    "target": "day-14-out-clause-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "hard-kill-checkpoint-pattern",
+    "target": "blue-fox-trading-implementation-blueprint",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "hard-kill-checkpoint-pattern",
+    "target": "kill-switch-30-days-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "hard-kill-checkpoint-pattern",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "hard-kill-checkpoint-pattern",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "hard-kill-checkpoint-pattern",
+    "target": "milestone-gated-expansion-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "hard-kill-checkpoint-pattern",
+    "target": "named-bets-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "hard-kill-checkpoint-pattern",
+    "target": "two-engine-model-pattern",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
@@ -7515,14 +7837,49 @@
   },
   {
     "source": "keep-what-works-frame",
-    "target": "marin-murphy-client-overview",
+    "target": "seda-law-decision-summary",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
   },
   {
     "source": "keep-what-works-frame",
-    "target": "seda-law-decision-summary",
+    "target": "carpenter-chartered-discovery-2026-05-05",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "keep-what-works-frame",
+    "target": "petroff-amshen-strategic-scoping-managing-partners",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "keep-what-works-frame",
+    "target": "hansen-rosasco-client-overview",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "keep-what-works-frame",
+    "target": "advisor-frame-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "keep-what-works-frame",
+    "target": "transparency-about-bias-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "keep-what-works-frame",
+    "target": "four-paths-with-no-sale-option",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
@@ -7578,21 +7935,7 @@
   },
   {
     "source": "plus-one-subscription-pattern",
-    "target": "huify-firm-evolution-timeline",
-    "relationship_type": "wikilink",
-    "weight": 1,
-    "_from_batch": "forge-patterns-2026-05-19"
-  },
-  {
-    "source": "plus-one-subscription-pattern",
-    "target": "huify-history-era-3-hubspot-partner-2015-2016",
-    "relationship_type": "wikilink",
-    "weight": 1,
-    "_from_batch": "forge-patterns-2026-05-19"
-  },
-  {
-    "source": "plus-one-subscription-pattern",
-    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "target": "mediafly-sizzle-deck",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
@@ -7606,7 +7949,49 @@
   },
   {
     "source": "plus-one-subscription-pattern",
-    "target": "mediafly-sizzle-deck",
+    "target": "audit-to-retainer-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "plus-one-subscription-pattern",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "plus-one-subscription-pattern",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "plus-one-subscription-pattern",
+    "target": "quick-start-sprint-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "plus-one-subscription-pattern",
+    "target": "founding-customer-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "plus-one-subscription-pattern",
+    "target": "three-lane-offer-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "plus-one-subscription-pattern",
+    "target": "door-already-standing-at-pattern",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
@@ -7614,6 +7999,97 @@
   {
     "source": "quick-start-sprint-pattern",
     "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "quick-start-sprint-pattern",
+    "target": "audit-to-retainer-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "quick-start-sprint-pattern",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "quick-start-sprint-pattern",
+    "target": "blue-fox-trading-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "quick-start-sprint-pattern",
+    "target": "blue-fox-trading-sprint-sow",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "quick-start-sprint-pattern",
+    "target": "seda-law-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "quick-start-sprint-pattern",
+    "target": "hbl-crm-implementation-plan",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "quick-start-sprint-pattern",
+    "target": "blue-fox-trading-implementation-blueprint",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "quick-start-sprint-pattern",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "quick-start-sprint-pattern",
+    "target": "plus-one-subscription-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "quick-start-sprint-pattern",
+    "target": "ai-as-the-engine-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "quick-start-sprint-pattern",
+    "target": "kill-switch-30-days-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "quick-start-sprint-pattern",
+    "target": "hard-kill-checkpoint-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "quick-start-sprint-pattern",
+    "target": "hubspot-onboarding-waiver-timing",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
@@ -7648,7 +8124,35 @@
   },
   {
     "source": "two-engine-model-pattern",
-    "target": "huify-firm-evolution-timeline",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "two-engine-model-pattern",
+    "target": "audit-to-retainer-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "two-engine-model-pattern",
+    "target": "hard-kill-checkpoint-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "two-engine-model-pattern",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "two-engine-model-pattern",
+    "target": "hansen-rosasco-client-overview",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
@@ -7662,7 +8166,21 @@
   },
   {
     "source": "two-engine-model-pattern",
-    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "target": "design-partner-for-product-spinoff-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "two-engine-model-pattern",
+    "target": "closing-culture-brand",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-patterns-2026-05-19"
+  },
+  {
+    "source": "two-engine-model-pattern",
+    "target": "plus-one-subscription-pattern",
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-patterns-2026-05-19"
@@ -10949,5 +11467,950 @@
     "relationship_type": "wikilink",
     "weight": 1,
     "_from_batch": "forge-entities-2026-05-19"
+  },
+  {
+    "source": "client-fastspring",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-fastspring",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-fastspring",
+    "target": "huify-history-era-3-hubspot-partner-2015-2016",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-fastspring",
+    "target": "client-pandadoc",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-fastspring",
+    "target": "v1-to-v2-pivot-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-fastspring",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-fastspring",
+    "target": "huify-history-era-4-insurance-saas-2017-2018",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-fastspring",
+    "target": "plus-one-subscription-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-fastspring",
+    "target": "mql-rank-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-fastspring",
+    "target": "reorganization-mid-engagement-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-fastspring",
+    "target": "transition-materials-handoff-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-fastspring",
+    "target": "closing-culture-brand",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "huify-history-era-6-author-closing-culture-2021-2022",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "closing-culture-brand",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "client-jon-bostock-retail-heroes",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "client-softbank-robotics-america",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "closing-culture-book",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "email-to-brian-halligan-2019",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "weekly-kpi-review-cadence-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "sales-dashboard-training-video-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "author-platform-engagement-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "multi-year-retainer-shape",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-michael-hyatt-mhco",
+    "target": "phoneburner-integration-playbook",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-pandadoc",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-pandadoc",
+    "target": "carpenter-chartered-discovery-2026-05-05",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-pandadoc",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-pandadoc",
+    "target": "huify-history-era-3-hubspot-partner-2015-2016",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-pandadoc",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-pandadoc",
+    "target": "client-fastspring",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-pandadoc",
+    "target": "hansen-rosasco-client-overview",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-pandadoc",
+    "target": "closing-culture-brand",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-pandadoc",
+    "target": "weekly-agenda-cadence-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-pandadoc",
+    "target": "persona-discovery-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-pandadoc",
+    "target": "hubspot-marketplace-partner-channel-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-softbank-robotics-america",
+    "target": "carpenter-chartered-cosell-playbook",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-softbank-robotics-america",
+    "target": "quick-start-sprint-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-softbank-robotics-america",
+    "target": "hansen-rosasco-client-overview",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-softbank-robotics-america",
+    "target": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-softbank-robotics-america",
+    "target": "client-michael-hyatt-mhco",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-softbank-robotics-america",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-softbank-robotics-america",
+    "target": "client-sweet-fish-media",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-softbank-robotics-america",
+    "target": "tortscale-readinessaudit-gtm-operating-plan-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-softbank-robotics-america",
+    "target": "12-month-kpi-scorecard-template",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-softbank-robotics-america",
+    "target": "1-month-focused-sow-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-softbank-robotics-america",
+    "target": "multi-region-enterprise-coordination-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-softbank-robotics-america",
+    "target": "covid-remote-operating-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-softbank-robotics-america",
+    "target": "multi-account-portfolio-engagement-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "client-softbank-robotics-america",
+    "target": "hubspot-properties-master-mapping",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "quick-start-sprint-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "plus-one-subscription-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "v1-to-v2-pivot-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "huify-gtm-writeup-v1",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "hansen-rosasco-ai-proof-extraction-plan",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "pairing-method-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "hard-kill-checkpoint-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "petroff-amshen-strategic-scoping-managing-partners",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "blue-fox-trading-implementation-blueprint",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "huify-case-study-catalog",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "huify-stories-bank",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "huify-history-era-6-author-closing-culture-2021-2022",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "huify-history-era-4-insurance-saas-2017-2018",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "client-fastspring",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "client-pandadoc",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "client-michael-hyatt-mhco",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-anti-case-studies",
+    "target": "email-to-brian-halligan-2019",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "hansen-rosasco-year-one-review-deck",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "huify-stories-bank",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "huify-warm-list-reactivation-map",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "huify-history-era-1-pre-huify-2012",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "huify-history-era-2-early-smb-2013-2014",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "huify-history-era-3-hubspot-partner-2015-2016",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "huify-history-era-4-insurance-saas-2017-2018",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "huify-history-era-5-enterprise-pivot-2019-2020",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "huify-history-era-6-author-closing-culture-2021-2022",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "huify-history-era-7-legal-pivot-2023-2024",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "huify-history-era-8-legal-documents-ai-2025-present",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "client-pandadoc",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "client-fastspring",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "client-michael-hyatt-mhco",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "client-softbank-robotics-america",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "bronson-napoli-crm-optimization",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "hansen-rosasco-client-overview",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "gme-supply-client-overview",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "mediafly-sizzle-deck",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-case-study-catalog",
+    "target": "huify-anti-case-studies",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "huify-case-study-catalog",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "hansen-rosasco-client-overview",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "client-pandadoc",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "client-michael-hyatt-mhco",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "client-fastspring",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "client-softbank-robotics-america",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "bronson-napoli-crm-optimization",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "carpenter-john-recommended-path",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "blue-fox-trading-implementation-blueprint",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "hbl-crm-implementation-plan",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "seda-law-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "2026-case-os-framework",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "closing-culture-brand",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "black-box-problem-frame",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "case-velocity-formula",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "keep-what-works-frame",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "kill-switch-30-days-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-stories-bank",
+    "target": "we-heard-you-rescope-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "bronson-napoli-crm-optimization",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "petroff-amshen-marketing-content-operations",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "seda-law-decision-summary",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "2026-case-os-framework",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "huify-horizontal-expansion-gtm",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "huify-firm-evolution-timeline",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "huify-case-study-catalog",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "huify-stories-bank",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "client-pandadoc",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "client-fastspring",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "client-michael-hyatt-mhco",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "client-softbank-robotics-america",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "forge-entity-index",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "person-brian-halligan",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "person-patrick-maniego",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "person-zawad-ahmed",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "person-nicole-toler",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "person-shannon-quinn",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "person-michael-hyatt",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
+  },
+  {
+    "source": "huify-warm-list-reactivation-map",
+    "target": "person-jon-bostock",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-historical-2026-05-19"
   }
 ]
