@@ -429,3 +429,20 @@ setTimeout(() => fitToView(), 1200);
 
 Forge.graph = { focusNode, fitToView };
 })();
+
+// Forge search palette integration
+(function () {
+  const tryWire = () => {
+    if (window.Forge && window.Forge.graph && window.Forge.search) {
+      // Try to pass the loaded nodes
+      const nodesData = window.Forge.graph._nodes || window.__forgeNodes;
+      if (nodesData) {
+        window.Forge.search.setNodes(nodesData);
+      }
+    }
+  };
+  // Try a few times to wait for graph.js to finish loading data
+  setTimeout(tryWire, 500);
+  setTimeout(tryWire, 1500);
+  setTimeout(tryWire, 3000);
+})();
