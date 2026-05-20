@@ -12785,6 +12785,76 @@
     "_from_batch": "forge-revenue-2026-05-19"
   },
   {
+    "source": "warm-list-execution-package-2026-05",
+    "target": "huify-warm-list-reactivation-map",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-revenue-2026-05-19"
+  },
+  {
+    "source": "warm-list-execution-package-2026-05",
+    "target": "warm-list-reactivation-campaign-2026-05",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-revenue-2026-05-19"
+  },
+  {
+    "source": "warm-list-execution-package-2026-05",
+    "target": "case-study-hansen-rosasco-526k",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-revenue-2026-05-19"
+  },
+  {
+    "source": "warm-list-execution-package-2026-05",
+    "target": "case-study-pandadoc-10-year",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-revenue-2026-05-19"
+  },
+  {
+    "source": "warm-list-execution-package-2026-05",
+    "target": "case-study-bronson-napoli-bridge",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-revenue-2026-05-19"
+  },
+  {
+    "source": "warm-list-execution-package-2026-05",
+    "target": "client-pandadoc",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-revenue-2026-05-19"
+  },
+  {
+    "source": "warm-list-execution-package-2026-05",
+    "target": "client-michael-hyatt-mhco",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-revenue-2026-05-19"
+  },
+  {
+    "source": "warm-list-execution-package-2026-05",
+    "target": "client-softbank-robotics-america",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-revenue-2026-05-19"
+  },
+  {
+    "source": "warm-list-execution-package-2026-05",
+    "target": "huify-gtm-writeup-v2",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-revenue-2026-05-19"
+  },
+  {
+    "source": "warm-list-execution-package-2026-05",
+    "target": "advisor-frame-pattern",
+    "relationship_type": "wikilink",
+    "weight": 1,
+    "_from_batch": "forge-revenue-2026-05-19"
+  },
+  {
     "source": "warm-list-reactivation-campaign-2026-05",
     "target": "huify-warm-list-reactivation-map",
     "relationship_type": "wikilink",
